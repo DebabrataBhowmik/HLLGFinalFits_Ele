@@ -1,0 +1,76 @@
+ --> Processing ( ggH, Merged2Gsf_EE, 120, 2016 ) scale uncertainties
+ --> Processing ( VBF, Merged2Gsf_EE, 120, 2016 ) scale uncertainties
+ --> Processing (  WH, Merged2Gsf_EE, 120, 2016 ) scale uncertainties
+ --> Processing (  ZH, Merged2Gsf_EE, 120, 2016 ) scale uncertainties
+ --> Processing ( ttH, Merged2Gsf_EE, 120, 2016 ) scale uncertainties
+ --> Processing ( bbH, Merged2Gsf_EE, 120, 2016 ) scale uncertainties
+ --> Processing ( ggH, Merged2Gsf_EE, 120, 2016 ) resol uncertainties
+ --> Processing ( VBF, Merged2Gsf_EE, 120, 2016 ) resol uncertainties
+ --> Processing (  WH, Merged2Gsf_EE, 120, 2016 ) resol uncertainties
+ --> Processing (  ZH, Merged2Gsf_EE, 120, 2016 ) resol uncertainties
+ --> Processing ( ttH, Merged2Gsf_EE, 120, 2016 ) resol uncertainties
+ --> Processing ( bbH, Merged2Gsf_EE, 120, 2016 ) resol uncertainties
+ --> Processing ( ggH, Merged2Gsf_EE, 125, 2016 ) scale uncertainties
+ --> Processing ( VBF, Merged2Gsf_EE, 125, 2016 ) scale uncertainties
+ --> Processing (  WH, Merged2Gsf_EE, 125, 2016 ) scale uncertainties
+ --> Processing (  ZH, Merged2Gsf_EE, 125, 2016 ) scale uncertainties
+ --> Processing ( ttH, Merged2Gsf_EE, 125, 2016 ) scale uncertainties
+ --> Processing ( bbH, Merged2Gsf_EE, 125, 2016 ) scale uncertainties
+ --> Processing ( ggH, Merged2Gsf_EE, 125, 2016 ) resol uncertainties
+ --> Processing ( VBF, Merged2Gsf_EE, 125, 2016 ) resol uncertainties
+ --> Processing (  WH, Merged2Gsf_EE, 125, 2016 ) resol uncertainties
+ --> Processing (  ZH, Merged2Gsf_EE, 125, 2016 ) resol uncertainties
+ --> Processing ( ttH, Merged2Gsf_EE, 125, 2016 ) resol uncertainties
+ --> Processing ( bbH, Merged2Gsf_EE, 125, 2016 ) resol uncertainties
+ --> Processing ( ggH, Merged2Gsf_EE, 130, 2016 ) scale uncertainties
+ --> Processing ( VBF, Merged2Gsf_EE, 130, 2016 ) scale uncertainties
+ --> Processing (  WH, Merged2Gsf_EE, 130, 2016 ) scale uncertainties
+ --> Processing (  ZH, Merged2Gsf_EE, 130, 2016 ) scale uncertainties
+ --> Processing ( ttH, Merged2Gsf_EE, 130, 2016 ) scale uncertainties
+ --> Processing ( bbH, Merged2Gsf_EE, 130, 2016 ) scale uncertainties
+ --> Processing ( ggH, Merged2Gsf_EE, 130, 2016 ) resol uncertainties
+ --> Processing ( VBF, Merged2Gsf_EE, 130, 2016 ) resol uncertainties
+ --> Processing (  WH, Merged2Gsf_EE, 130, 2016 ) resol uncertainties
+ --> Processing (  ZH, Merged2Gsf_EE, 130, 2016 ) resol uncertainties
+ --> Processing ( ttH, Merged2Gsf_EE, 130, 2016 ) resol uncertainties
+ --> Processing ( bbH, Merged2Gsf_EE, 130, 2016 ) resol uncertainties
+   proc            cat mass  year        nominalDataName PhoScaleStat PhoScaleSyst PhoScaleGain EleHDALScale EleTotalScale  PhoTotalScale  TotalScale
+0   ggH  Merged2Gsf_EE  120  2016  set_120_Merged2Gsf_EE     0.000684     0.000037     0.000037     0.005981      0.005981       0.000686    0.006020
+1   VBF  Merged2Gsf_EE  120  2016  set_120_Merged2Gsf_EE     0.000868     0.000167     0.000167     0.005827      0.005827       0.000900    0.005896
+2    WH  Merged2Gsf_EE  120  2016  set_120_Merged2Gsf_EE     0.000647     0.000012     0.000012     0.005577      0.005577       0.000647    0.005615
+3    ZH  Merged2Gsf_EE  120  2016  set_120_Merged2Gsf_EE     0.000667     0.000126     0.000126     0.005851      0.005851       0.000690    0.005892
+4   ttH  Merged2Gsf_EE  120  2016  set_120_Merged2Gsf_EE     0.000603     0.000175     0.000175      0.00654       0.00654       0.000651    0.006572
+5   bbH  Merged2Gsf_EE  120  2016  set_120_Merged2Gsf_EE     0.000715     0.000138     0.000138     0.006013      0.006013       0.000742    0.006058
+6   ggH  Merged2Gsf_EE  125  2016  set_125_Merged2Gsf_EE     0.000688     0.000018     0.000018     0.006118      0.006118       0.000688    0.006157
+7   VBF  Merged2Gsf_EE  125  2016  set_125_Merged2Gsf_EE     0.001028     0.000163     0.000163     0.005643      0.005643       0.001053    0.005740
+8    WH  Merged2Gsf_EE  125  2016  set_125_Merged2Gsf_EE     0.000528     0.000025     0.000025     0.005916      0.005916       0.000530    0.005940
+9    ZH  Merged2Gsf_EE  125  2016  set_125_Merged2Gsf_EE     0.000818     0.000104     0.000104     0.006119      0.006119       0.000831    0.006175
+10  ttH  Merged2Gsf_EE  125  2016  set_125_Merged2Gsf_EE     0.000848     0.000363     0.000363     0.004886      0.004886       0.000992    0.004986
+11  bbH  Merged2Gsf_EE  125  2016  set_125_Merged2Gsf_EE     0.000776     0.000096     0.000096     0.006352      0.006352       0.000788    0.006401
+12  ggH  Merged2Gsf_EE  130  2016  set_130_Merged2Gsf_EE     0.000694     0.000005     0.000005     0.006065      0.006065       0.000694    0.006104
+13  VBF  Merged2Gsf_EE  130  2016  set_130_Merged2Gsf_EE     0.000765     0.000121     0.000121     0.006104      0.006104       0.000784    0.006154
+14   WH  Merged2Gsf_EE  130  2016  set_130_Merged2Gsf_EE     0.000741     0.000017     0.000017     0.005985      0.005985       0.000742    0.006030
+15   ZH  Merged2Gsf_EE  130  2016  set_130_Merged2Gsf_EE     0.000709     0.000072     0.000072     0.005734      0.005734       0.000716    0.005779
+16  ttH  Merged2Gsf_EE  130  2016  set_130_Merged2Gsf_EE      0.00088     0.000031     0.000031     0.005829      0.005829       0.000881    0.005895
+17  bbH  Merged2Gsf_EE  130  2016  set_130_Merged2Gsf_EE      0.00053     0.000053     0.000053     0.005725      0.005725       0.000535    0.005750
+   proc            cat mass  year        nominalDataName PhoSigmaPhi PhoSigmaRho EleHDALSmear EleTotalResol  PhoTotalResol  TotalResol
+0   ggH  Merged2Gsf_EE  120  2016  set_120_Merged2Gsf_EE    0.005611    0.000494     0.156055      0.156055       0.005633    0.156156
+1   VBF  Merged2Gsf_EE  120  2016  set_120_Merged2Gsf_EE    0.007872    0.001367     0.444965      0.444965       0.007990    0.445037
+2    WH  Merged2Gsf_EE  120  2016  set_120_Merged2Gsf_EE    0.000187         0.0     0.203237      0.203237       0.000187    0.203237
+3    ZH  Merged2Gsf_EE  120  2016  set_120_Merged2Gsf_EE    0.002867    0.000327     0.088128      0.088128       0.002886    0.088175
+4   ttH  Merged2Gsf_EE  120  2016  set_120_Merged2Gsf_EE    0.005322    0.000694     0.043656      0.043656       0.005367    0.043984
+5   bbH  Merged2Gsf_EE  120  2016  set_120_Merged2Gsf_EE    0.005304    0.001094     0.139085      0.139085       0.005416    0.139190
+6   ggH  Merged2Gsf_EE  125  2016  set_125_Merged2Gsf_EE    0.000966    0.000271     0.306116      0.306116       0.001003    0.306117
+7   VBF  Merged2Gsf_EE  125  2016  set_125_Merged2Gsf_EE    0.001427    0.000777     0.114674      0.114674       0.001625    0.114686
+8    WH  Merged2Gsf_EE  125  2016  set_125_Merged2Gsf_EE    0.002935     0.00021     0.127642      0.127642       0.002943    0.127676
+9    ZH  Merged2Gsf_EE  125  2016  set_125_Merged2Gsf_EE    0.003679    0.000384     0.163342      0.163342       0.003699    0.163384
+10  ttH  Merged2Gsf_EE  125  2016  set_125_Merged2Gsf_EE    0.000306    0.000001     0.015406      0.015406       0.000306    0.015409
+11  bbH  Merged2Gsf_EE  125  2016  set_125_Merged2Gsf_EE    0.019734    0.007592     0.046384      0.046384       0.021144    0.050976
+12  ggH  Merged2Gsf_EE  130  2016  set_130_Merged2Gsf_EE    0.008974    0.005209     0.091309      0.091309       0.010376    0.091897
+13  VBF  Merged2Gsf_EE  130  2016  set_130_Merged2Gsf_EE    0.000775     0.00011     0.023846      0.023846       0.000783    0.023858
+14   WH  Merged2Gsf_EE  130  2016  set_130_Merged2Gsf_EE    0.002232    0.000032     0.300172      0.300172       0.002232    0.300180
+15   ZH  Merged2Gsf_EE  130  2016  set_130_Merged2Gsf_EE     0.00088    0.000455       0.1674        0.1674       0.000991    0.167403
+16  ttH  Merged2Gsf_EE  130  2016  set_130_Merged2Gsf_EE    0.001532    0.000003      0.07608       0.07608       0.001532    0.076096
+17  bbH  Merged2Gsf_EE  130  2016  set_130_Merged2Gsf_EE    0.001412    0.002292          0.5           0.5       0.002692    0.500007
+ --> Successfully saved scale systematics as pkl file: /home/chenghan/HDalitzEle/misc/Limit/CMSSW_11_3_4/src/HLLGFinalFits/Signal/syst/shape_syst_scale_Merged2Gsf_EE_2016.pkl
+ --> Successfully saved resol systematics as pkl file: /home/chenghan/HDalitzEle/misc/Limit/CMSSW_11_3_4/src/HLLGFinalFits/Signal/syst/shape_syst_resol_Merged2Gsf_EE_2016.pkl

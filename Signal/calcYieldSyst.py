@@ -15,63 +15,84 @@ def get_parser():
     parser.add_argument("-c",   "--category",        help="RECO category",                                           default="",     type=str)
     parser.add_argument("-y",   "--year",            help="year",                                                    default="",     type=str)
     parser.add_argument("-i",   "--inputWSDir",      help="Input WS directory",                                      default="",     type=str)
-    parser.add_argument("-tr",  "--thresholdRate",   help="Reject mean variations if larger than thresholdRate",     default=0.5,      type=float)
+    parser.add_argument("-tr",  "--thresholdRate",   help="Reject mean variations if larger than thresholdRate",     default=0.5,   type=float)
+    parser.add_argument("-pn",  "--preventNegative", help="set the negative bin content of mass histograms to 0.",   default=False,action="store_true")
 
     return parser
 
 
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# Function to extact sets from WS
-# ! FIXEDME: up->UP and do->Do for the same naming method
-def getDataSets(_ws, _nominalDataName, _sname):
-    # Define datasets
-    rds_nominal = _ws.data(_nominalDataName)
-    if (not rds_nominal):
-        print("Fail to get RooDataSet %s" %(_nominalDataName))
-        sys.exit(1)
-    rds_up = _ws.data("%s_%sUp" %(_nominalDataName, _sname))
-    if (not rds_up):
-        print("Fail to get RooDataSet %s_%sup" %(_nominalDataName, _sname))
-        sys.exit(1)
-    rds_do = _ws.data("%s_%sDo" %(_nominalDataName, _sname))
-    if (not rds_do):
-        print("Fail to get RooDataSet %s_%sdo" %(_nominalDataName, _sname))
-        sys.exit(1)
-    _sets = {}
-    _sets["nominal"] = rds_nominal
-    _sets["Up"] = rds_up
-    _sets["Do"] = rds_do
-    return _sets
+# Function to extact hists of systematics from WS
+def getDataHists(_ws, _nominalDataName, _sname, _var):
+    hname_nominal = _nominalDataName.replace("set", "hist_nominal_{}".format(_sname))
+    hname_up = hname_nominal.replace("nominal", "up")
+    hname_do = hname_nominal.replace("nominal", "do")
+    
+    _hists = {
+        "nominal": ROOT.TH1F(hname_nominal, "", 60, 110, 170),
+        "up"     : ROOT.TH1F(hname_up, "", 60, 110, 170),
+        "do"     : ROOT.TH1F(hname_do, "", 60, 110, 170)
+    }
+    
+    # get data
+    ds_nominal = _ws.data(_nominalDataName)
+    dh_name = _nominalDataName.replace("set", "dh")
+    if (_sname == "PhoNoR9Corr"):
+        dh_up = _ws.data("%s_%s" %(dh_name, _sname))
+        dh_do = _ws.data("%s_%s" %(dh_name, _sname))
+    else:
+        dh_up = _ws.data("%s_%sUp" %(dh_name, _sname))
+        dh_do = _ws.data("%s_%sDo" %(dh_name, _sname))
+    
+    # convert to TH1
+    ds_nominal.fillHistogram(_hists["nominal"], ROOT.RooArgList(_var))
+    dh_up.fillHistogram(_hists["up"], ROOT.RooArgList(_var))
+    dh_do.fillHistogram(_hists["do"], ROOT.RooArgList(_var))
+    if args.preventNegative: # set the negative bin content to 0.
+        for b in range(_hists["nominal"].GetNbinsX()+1): 
+            if _hists["nominal"].GetBinContent(b+1) < 0:
+                _hists["nominal"].SetBinContent(b+1, 0)
+            if _hists["up"].GetBinContent(b+1) < 0:
+                _hists["up"].SetBinContent(b+1, 0)
+            if _hists["do"].GetBinContent(b+1) < 0:
+                _hists["do"].SetBinContent(b+1, 0)
+
+    return _hists
 
 
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # Functions to extract rate variations
-def getRateVar(_sets):
-    rate, rateVar = {}, {}
-    for stype, s in _sets.iteritems():
-        rate[stype] = s.sumEntries()
-    for stype in ["Up", "Do"]:
-        rateVar[stype] = (rate[stype] - rate["nominal"]) / rate["nominal"]
-    x = np.float64((abs(rateVar["Up"]) + abs(rateVar["Do"])) / 2) # average
+def getRateVar(_hists):
+    rate, rateVar = {}, {}   
+    for htype, h in _hists.items():
+        rate[htype] = h.Integral() if h.Integral() > 0. else 0.
+    
+    if rate["nominal"] == 0.: 
+        return 0.
+    
+    for htype in ["up", "do"]:
+        rateVar[htype] = abs((rate[htype] - rate["nominal"]) / rate["nominal"])
+    # print(rate["nominal"], rate["up"], rate["do"])
+    x = np.float64((rateVar["up"] + rateVar["do"]) / 2) # average
     if (np.isnan(x)):
         print("Get NaN rate variation")
         sys.exit(1)
     return min(x, args.thresholdRate)
 
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 def main(mass):
     global rate_variations
     rate_variations = [
-        "puwei",
-        "l1pf",
-        "hlt",
-        "recoE",
-        "eleID",
-        "phoID",
-        "csev",
+        "PhoNoR9Corr",
+        "weight_EleID",
+        "weight_HLT",
+        "weight_L1Pre",
+        "weight_PhoID",
+        "weight_puwei",
         "JER",
         "JEC"
     ]
+    # if "Resolved" not in args.category:
+    #     rate_variations.append("JER")
+    #     rate_variations.append("JEC")
 
     # Define dataFrame
     columns_data = ["proc", "cat", "mass", "year", "inputWSFile", "nominalDataName"]
@@ -83,7 +104,9 @@ def main(mass):
     for _proc in productionModes:
         _WSFileName = "%s/signal_%s_%s.root" %(args.inputWSDir, _proc, mass)
         _nominalDataName = "set_%s_%s" %(mass, args.category)
-        data = data.append({"proc":_proc, "cat":args.category, "mass":mass, "year":args.year, "inputWSFile":_WSFileName, "nominalDataName":_nominalDataName}, ignore_index=True, sort=False)
+        
+        data_proc = pd.DataFrame({"proc":_proc, "cat":args.category, "mass":mass, "year":args.year, "inputWSFile":_WSFileName, "nominalDataName":_nominalDataName}, index=[0])
+        data = pd.concat([data, data_proc], ignore_index=True, sort=False)
 
     for ir, r in data.iterrows():
         print(" --> Processing ({proc:>4}, {cat}, {m}, {y:<5}) rate uncertainties".format(proc=r["proc"], cat=args.category, m=r["mass"], y=r["year"]))
@@ -95,17 +118,20 @@ def main(mass):
         if not inputWS:
             print("Fail to get workspace %s" %(inputWSName__))
             sys.exit(1)
+        
         # Add values to dataFrame
         for s in rate_variations:
-            sets = getDataSets(inputWS, r["nominalDataName"], s)
-            _rateVar = getRateVar(sets)
+            if "Resolved" in r["cat"] and (s == "JER" or s == "JEC"):
+                _rateVar = 0.
+            else:
+                hists = getDataHists(inputWS, r["nominalDataName"], s, inputWS.var("CMS_higgs_mass"))
+                _rateVar = getRateVar(hists)
             data.at[ir, s] = _rateVar
         # close file
         f.Close()
-
     return data
 
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 def calcFactory(df):
     mass_interp = np.linspace(massBaseList[0], massBaseList[-1], 11, endpoint=True).astype(int)
     column_title = ["proc", "cat", "mass", "year"] + rate_variations
@@ -121,12 +147,12 @@ def calcFactory(df):
                 unc[s].append(r[s])
 
         unc_interp = od([(s, []) for s in rate_variations])
-        for s, val in unc.iteritems():
+        for s, val in unc.items():
             unc_interp[s] = np.interp(mass_interp, np.array(massBaseList), np.array(val))
 
         for i, _mp in enumerate(mass_interp):
             volumn_val = [proc, args.category, _mp, args.year]
-            for s, val in unc_interp.iteritems():
+            for s, val in unc_interp.items():
                 volumn_val.append(unc_interp[s][i])
             df_data.loc[len(df_data)] = volumn_val
 
@@ -141,6 +167,10 @@ def calcFactory(df):
 if __name__ == "__main__" :
     parser = get_parser()
     args = parser.parse_args()
+    
+    # PyROOT does not display any graphics(root "-b" option)
+    ROOT.gROOT.SetBatch()
+    ROOT.gErrorIgnoreLevel = ROOT.kWarning
 
     df_list = []
     for _m in massBaseList:
@@ -148,4 +178,8 @@ if __name__ == "__main__" :
         df_list.append(df)
 
     df_mass = pd.concat(df_list, ignore_index=True, axis=0, sort=False)
+    
+    cols = [i for i in list(df_mass.columns) if i != "inputWSFile"]
+    print(df_mass[cols].to_string())
+    
     calcFactory(df_mass)

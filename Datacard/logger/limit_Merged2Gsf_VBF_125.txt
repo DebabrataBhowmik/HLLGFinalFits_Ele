@@ -1,0 +1,34 @@
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+Will use a-priori expected background instead of a-posteriori one.
+>>> method used is AsymptoticLimits
+Adding discrete pdfindex_Merged2Gsf_VBF_13TeV
+SimNLL created with 1 channels, 0 generic constraints, 70 fast gaussian constraints, 0 fast poisson constraints, 0 fast group constraints, 
+WARNING: Best fit of asimov dataset is at r = 0.028441 (0.001422 times rMax), while it should be at zero
+Median for expected limits: 20
+Sigma  for expected limits: 10.2043
+
+ -- AsymptoticLimits ( CLs ) --
+Expected  2.5%: r < 9.6875
+Expected 16.0%: r < 13.5547
+Expected 50.0%: r < 20.0000
+Expected 84.0%: r < 30.2840
+Expected 97.5%: r < 44.4771
+
+Done in 0.03 min (cpu), 0.04 min (real)
+Printing Message Summary From ... combine_logger.out
+----------------------------------------------
+Messages of type INFO : 4
+Messages of type DEBUG : 1
+Messages of type ERROR : 0
+----------------------------------------------
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_Merged2Gsf_EBHR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_Merged2Gsf_EBLR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_Merged2Gsf_EE_13TeV 
+INFO: (function: generateAsimov) ToyMCSamplerOpt.cc: 145 -- Using internal logic for binned/unbinned Asimov dataset generation
+INFO: (function: generateWithHisto) ToyMCSamplerOpt.cc: 220 -- Generating asimov with histoINFO: (function: runLimitExpected) AsymptoticLimits.cc: 436 -- Median for expected limits = 26 (Sigma for expected limits = 13.2656)
+nned/unbinned Asimov dataset generation
+INFO: (function: generateWithHisto) ToyMCSamplerOpt.cc: 220 -- Generating asimov with histogram for pdf pdf_binch2_obsOnly: in 60 x-bins
+INFO: (function: generateAsimov) ToyMCSamplerOpt.ccINFO: (function: runLimitExpected) AsymptoticLimits.cc: 436 -- Median for expected limits = 7.34375 (Sigma for expected limits = 3.74688)
+ Generating asimov with histogram for pdf pdf_binch3_obsOnly: in 60 x-bins
+DEBUG: (function: runLimitExpected) AsymptoticLimits.cc: 423 -- Best fit of asimov dataset is at r = 0.023434 (0.001172 times rMax), while it should be at zero

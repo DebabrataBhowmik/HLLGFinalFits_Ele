@@ -1,0 +1,76 @@
+ --> Processing ( ggH, Merged2Gsf_BST, 120, 2017 ) scale uncertainties
+ --> Processing ( VBF, Merged2Gsf_BST, 120, 2017 ) scale uncertainties
+ --> Processing (  WH, Merged2Gsf_BST, 120, 2017 ) scale uncertainties
+ --> Processing (  ZH, Merged2Gsf_BST, 120, 2017 ) scale uncertainties
+ --> Processing ( ttH, Merged2Gsf_BST, 120, 2017 ) scale uncertainties
+ --> Processing ( bbH, Merged2Gsf_BST, 120, 2017 ) scale uncertainties
+ --> Processing ( ggH, Merged2Gsf_BST, 120, 2017 ) resol uncertainties
+ --> Processing ( VBF, Merged2Gsf_BST, 120, 2017 ) resol uncertainties
+ --> Processing (  WH, Merged2Gsf_BST, 120, 2017 ) resol uncertainties
+ --> Processing (  ZH, Merged2Gsf_BST, 120, 2017 ) resol uncertainties
+ --> Processing ( ttH, Merged2Gsf_BST, 120, 2017 ) resol uncertainties
+ --> Processing ( bbH, Merged2Gsf_BST, 120, 2017 ) resol uncertainties
+ --> Processing ( ggH, Merged2Gsf_BST, 125, 2017 ) scale uncertainties
+ --> Processing ( VBF, Merged2Gsf_BST, 125, 2017 ) scale uncertainties
+ --> Processing (  WH, Merged2Gsf_BST, 125, 2017 ) scale uncertainties
+ --> Processing (  ZH, Merged2Gsf_BST, 125, 2017 ) scale uncertainties
+ --> Processing ( ttH, Merged2Gsf_BST, 125, 2017 ) scale uncertainties
+ --> Processing ( bbH, Merged2Gsf_BST, 125, 2017 ) scale uncertainties
+ --> Processing ( ggH, Merged2Gsf_BST, 125, 2017 ) resol uncertainties
+ --> Processing ( VBF, Merged2Gsf_BST, 125, 2017 ) resol uncertainties
+ --> Processing (  WH, Merged2Gsf_BST, 125, 2017 ) resol uncertainties
+ --> Processing (  ZH, Merged2Gsf_BST, 125, 2017 ) resol uncertainties
+ --> Processing ( ttH, Merged2Gsf_BST, 125, 2017 ) resol uncertainties
+ --> Processing ( bbH, Merged2Gsf_BST, 125, 2017 ) resol uncertainties
+ --> Processing ( ggH, Merged2Gsf_BST, 130, 2017 ) scale uncertainties
+ --> Processing ( VBF, Merged2Gsf_BST, 130, 2017 ) scale uncertainties
+ --> Processing (  WH, Merged2Gsf_BST, 130, 2017 ) scale uncertainties
+ --> Processing (  ZH, Merged2Gsf_BST, 130, 2017 ) scale uncertainties
+ --> Processing ( ttH, Merged2Gsf_BST, 130, 2017 ) scale uncertainties
+ --> Processing ( bbH, Merged2Gsf_BST, 130, 2017 ) scale uncertainties
+ --> Processing ( ggH, Merged2Gsf_BST, 130, 2017 ) resol uncertainties
+ --> Processing ( VBF, Merged2Gsf_BST, 130, 2017 ) resol uncertainties
+ --> Processing (  WH, Merged2Gsf_BST, 130, 2017 ) resol uncertainties
+ --> Processing (  ZH, Merged2Gsf_BST, 130, 2017 ) resol uncertainties
+ --> Processing ( ttH, Merged2Gsf_BST, 130, 2017 ) resol uncertainties
+ --> Processing ( bbH, Merged2Gsf_BST, 130, 2017 ) resol uncertainties
+   proc             cat mass  year         nominalDataName PhoScaleStat PhoScaleSyst PhoScaleGain EleHDALScale EleTotalScale  PhoTotalScale  TotalScale
+0   ggH  Merged2Gsf_BST  120  2017  set_120_Merged2Gsf_BST     0.000304     0.000054     0.000054     0.006633      0.006633       0.000313    0.006640
+1   VBF  Merged2Gsf_BST  120  2017  set_120_Merged2Gsf_BST     0.000305     0.000004     0.000004     0.006689      0.006689       0.000305    0.006696
+2    WH  Merged2Gsf_BST  120  2017  set_120_Merged2Gsf_BST      0.00032     0.000012     0.000012     0.006561      0.006561       0.000320    0.006569
+3    ZH  Merged2Gsf_BST  120  2017  set_120_Merged2Gsf_BST     0.000347     0.000055     0.000055      0.00652       0.00652       0.000356    0.006530
+4   ttH  Merged2Gsf_BST  120  2017  set_120_Merged2Gsf_BST      0.00032     0.000017     0.000017     0.006681      0.006681       0.000320    0.006689
+5   bbH  Merged2Gsf_BST  120  2017  set_120_Merged2Gsf_BST     0.000141     0.000125     0.000125     0.007081      0.007081       0.000226    0.007084
+6   ggH  Merged2Gsf_BST  125  2017  set_125_Merged2Gsf_BST     0.000292     0.000038     0.000038     0.006678      0.006678       0.000297    0.006684
+7   VBF  Merged2Gsf_BST  125  2017  set_125_Merged2Gsf_BST     0.000309     0.000015     0.000015     0.006548      0.006548       0.000309    0.006555
+8    WH  Merged2Gsf_BST  125  2017  set_125_Merged2Gsf_BST     0.000332     0.000021     0.000021     0.006603      0.006603       0.000333    0.006612
+9    ZH  Merged2Gsf_BST  125  2017  set_125_Merged2Gsf_BST     0.000315     0.000008     0.000008     0.006617      0.006617       0.000315    0.006625
+10  ttH  Merged2Gsf_BST  125  2017  set_125_Merged2Gsf_BST     0.000301     0.000008     0.000008     0.006806      0.006806       0.000301    0.006812
+11  bbH  Merged2Gsf_BST  125  2017  set_125_Merged2Gsf_BST     0.000288     0.000172     0.000172     0.006499      0.006499       0.000377    0.006510
+12  ggH  Merged2Gsf_BST  130  2017  set_130_Merged2Gsf_BST     0.000323     0.000029     0.000029     0.006648      0.006648       0.000326    0.006656
+13  VBF  Merged2Gsf_BST  130  2017  set_130_Merged2Gsf_BST     0.000301     0.000001     0.000001     0.006588      0.006588       0.000301    0.006595
+14   WH  Merged2Gsf_BST  130  2017  set_130_Merged2Gsf_BST     0.000319     0.000026     0.000026     0.006678      0.006678       0.000321    0.006686
+15   ZH  Merged2Gsf_BST  130  2017  set_130_Merged2Gsf_BST     0.000367     0.000002     0.000002     0.006667      0.006667       0.000367    0.006677
+16  ttH  Merged2Gsf_BST  130  2017  set_130_Merged2Gsf_BST     0.000347     0.000033     0.000033     0.006788      0.006788       0.000351    0.006797
+17  bbH  Merged2Gsf_BST  130  2017  set_130_Merged2Gsf_BST      0.00043     0.000169     0.000169     0.006525      0.006525       0.000492    0.006543
+   proc             cat mass  year         nominalDataName PhoSigmaPhi PhoSigmaRho EleHDALSmear EleTotalResol  PhoTotalResol  TotalResol
+0   ggH  Merged2Gsf_BST  120  2017  set_120_Merged2Gsf_BST    0.004603     0.00013     0.316826      0.316826       0.004605    0.316859
+1   VBF  Merged2Gsf_BST  120  2017  set_120_Merged2Gsf_BST     0.00644    0.000468     0.309981      0.309981       0.006457    0.310048
+2    WH  Merged2Gsf_BST  120  2017  set_120_Merged2Gsf_BST    0.005809    0.000349     0.306061      0.306061       0.005819    0.306116
+3    ZH  Merged2Gsf_BST  120  2017  set_120_Merged2Gsf_BST     0.00645    0.000139      0.31389       0.31389       0.006452    0.313956
+4   ttH  Merged2Gsf_BST  120  2017  set_120_Merged2Gsf_BST    0.004072    0.000047     0.115998      0.115998       0.004072    0.116070
+5   bbH  Merged2Gsf_BST  120  2017  set_120_Merged2Gsf_BST    0.005864      0.0027     0.345066      0.345066       0.006456    0.345126
+6   ggH  Merged2Gsf_BST  125  2017  set_125_Merged2Gsf_BST    0.005055    0.000449     0.324749      0.324749       0.005075    0.324789
+7   VBF  Merged2Gsf_BST  125  2017  set_125_Merged2Gsf_BST    0.007184    0.000429     0.321828      0.321828       0.007197    0.321908
+8    WH  Merged2Gsf_BST  125  2017  set_125_Merged2Gsf_BST    0.005582    0.000187     0.476795      0.476795       0.005585    0.476827
+9    ZH  Merged2Gsf_BST  125  2017  set_125_Merged2Gsf_BST    0.005087    0.000194     0.307918      0.307918       0.005091    0.307960
+10  ttH  Merged2Gsf_BST  125  2017  set_125_Merged2Gsf_BST    0.005108    0.000107     0.115055      0.115055       0.005109    0.115168
+11  bbH  Merged2Gsf_BST  125  2017  set_125_Merged2Gsf_BST    0.008151    0.001266     0.324641      0.324641       0.008249    0.324746
+12  ggH  Merged2Gsf_BST  130  2017  set_130_Merged2Gsf_BST     0.00642    0.000432     0.486185      0.486185       0.006434    0.486228
+13  VBF  Merged2Gsf_BST  130  2017  set_130_Merged2Gsf_BST    0.005446    0.317141     0.478937      0.478937       0.317188    0.574446
+14   WH  Merged2Gsf_BST  130  2017  set_130_Merged2Gsf_BST    0.004394    0.000353     0.123962      0.123962       0.004408    0.124040
+15   ZH  Merged2Gsf_BST  130  2017  set_130_Merged2Gsf_BST    0.004925    0.000258     0.111667      0.111667       0.004931    0.111776
+16  ttH  Merged2Gsf_BST  130  2017  set_130_Merged2Gsf_BST    0.003936    0.000132      0.24096       0.24096       0.003938    0.240992
+17  bbH  Merged2Gsf_BST  130  2017  set_130_Merged2Gsf_BST    0.000592    0.000538     0.227606      0.227606       0.000799    0.227608
+ --> Successfully saved scale systematics as pkl file: /home/chenghan/HDalitzEle/misc/Limit/CMSSW_11_3_4/src/HLLGFinalFits/Signal/syst/shape_syst_scale_Merged2Gsf_BST_2017.pkl
+ --> Successfully saved resol systematics as pkl file: /home/chenghan/HDalitzEle/misc/Limit/CMSSW_11_3_4/src/HLLGFinalFits/Signal/syst/shape_syst_resol_Merged2Gsf_BST_2017.pkl

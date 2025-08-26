@@ -1,312 +1,478 @@
 Warning in <TClassTable::Add>: class RooPowerLaw already in TClassTable
 Warning in <TClassTable::Add>: class RooPowerLaw already in TClassTable
+Error in <TCling::LoadPCM>: ROOT PCM /home/chenghan/HDalitzEle/misc/Limit/CMSSW_11_3_4/src/HLLGFinalFits/Background/lib/RootDict_rdict.pcm file does not exist
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libASImageGui_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libASImage_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libDCache_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libEG_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libEve_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libFFTW_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libFitPanel_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libFumili_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libGX11TTF_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libGX11_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libGdml_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libGed_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libGenetic_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libGeomBuilder_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libGeomPainter_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libGeom_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libGuiBld_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libGuiHtml_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libGviz3d_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libHistPainter_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libHtml_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libMinuit2_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libNetxNG_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libProofBench_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libProofDraw_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libProofPlayer_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libProof_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libPyMVA_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libQuadp_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libRCsg_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libRDAVIX_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libRGL_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libRHTTPSniff_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libRHTTP_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libROOTBrowsable_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libROOTBrowserv7_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libROOTEve_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libROOTFitPanelv7_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libROOTGpadv7_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libROOTGraphicsPrimitives_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libROOTHistDraw_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libROOTHist_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libROOTTPython_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libROOTWebDisplay_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libRecorder_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libRooFitMore_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libRootAuth_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libSPlot_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libSQLIO_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libSessionViewer_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libSpectrumPainter_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libSpectrum_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libTMVAGui_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libTreeViewer_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libUnfold_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libWebGui6_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libX3d_rdict.pcm
+
+Warning in <TClassTable::Add>: class PdfModelBuilder already in TClassTable
+Warning in <TClassTable::Add>: class ProfileMultiplePdfs already in TClassTable
+Warning in <TClassTable::Add>: class RooExponentialSum already in TClassTable
 Warning in <TClassTable::Add>: class RooPowerLawSum already in TClassTable
 Warning in <TClassTable::Add>: class WSTFileWrapper already in TClassTable
-Warning in <TClassTable::Add>: class RooExponentialSum already in TClassTable
-Warning in <TClassTable::Add>: class ProfileMultiplePdfs already in TClassTable
-Warning in <TClassTable::Add>: class PdfModelBuilder already in TClassTable
+Error in <TCling::LoadPCM>: ROOT PCM /home/chenghan/HDalitzEle/misc/Limit/CMSSW_11_3_4/src/HLLGFinalFits/Background/bin/RootDict_rdict.pcm file does not exist
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libASImageGui_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libASImage_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libDCache_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libEG_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libEve_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libFFTW_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libFitPanel_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libFumili_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libGX11TTF_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libGX11_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libGdml_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libGed_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libGenetic_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libGeomBuilder_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libGeomPainter_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libGeom_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libGuiBld_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libGuiHtml_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libGviz3d_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libHistPainter_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libHtml_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libMinuit2_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libNetxNG_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libProofBench_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libProofDraw_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libProofPlayer_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libProof_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libPyMVA_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libQuadp_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libRCsg_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libRDAVIX_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libRGL_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libRHTTPSniff_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libRHTTP_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libROOTBrowsable_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libROOTBrowserv7_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libROOTEve_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libROOTFitPanelv7_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libROOTGpadv7_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libROOTGraphicsPrimitives_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libROOTHistDraw_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libROOTHist_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libROOTTPython_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libROOTWebDisplay_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libRecorder_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libRooFitMore_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libRootAuth_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libSPlot_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libSQLIO_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libSessionViewer_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libSpectrumPainter_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libSpectrum_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libTMVAGui_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libTreeViewer_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libUnfold_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libWebGui6_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libX3d_rdict.pcm
+
 [INFO] Save multiPdf model: ./multipdf/CMS_HLLG_multipdf_13TeV_Merged2Gsf_EBHR9.root
 [INFO] FitResults file: plots/fTest/fTestResults_Merged2Gsf_EBHR9.txt
 [INFO] Got mass from ws: CMS_higgs_mass
-[INFO] Open data for data_obs_Merged2Gsf_EBHR9. Sum of entries: 10361
+[INFO] Open data for data_obs_Merged2Gsf_EBHR9. Sum of entries: 3596
 [INFO] Perform the F-test on:  category Merged2Gsf_EBHR9, ftest_pdf_Merged2Gsf_EBHR9_13TeV_bern1
-[INFO] Function: Bernstein, order: 1, prevNll: 0, thisNll: 41705.9, chi2: -83411.8, prob: 0
+[INFO] Function: Bernstein, order: 1, prevNll: 0, thisNll: 14352, chi2: -28704, prob: 0
 [INFO] Perform the F-test on:  category Merged2Gsf_EBHR9, ftest_pdf_Merged2Gsf_EBHR9_13TeV_bern2
 Info in <TCanvas::Print>: pdf file plots/fTest/Ftest_from_Bernstein2_Merged2Gsf_EBHR9_13TeV.pdf has been created
 Info in <TCanvas::Print>: pdf file plots/fTest/Ftest_from_Bernstein2_Merged2Gsf_EBHR9_13TeV.pdf_fitstatus.pdf has been created
 [INFO] F-test Prob(chi2>chi2(data)) == 0
-[INFO] Function: Bernstein, order: 2, prevNll: 41705.9, thisNll: 41687.2, chi2: 37.43, prob: 0
+[INFO] Function: Bernstein, order: 2, prevNll: 14352, thisNll: 14335, chi2: 33.9627, prob: 0
 [INFO] Perform the F-test on:  category Merged2Gsf_EBHR9, ftest_pdf_Merged2Gsf_EBHR9_13TeV_bern3
 Info in <TCanvas::Print>: pdf file plots/fTest/Ftest_from_Bernstein3_Merged2Gsf_EBHR9_13TeV.pdf has been created
 Info in <TCanvas::Print>: pdf file plots/fTest/Ftest_from_Bernstein3_Merged2Gsf_EBHR9_13TeV.pdf_fitstatus.pdf has been created
-[INFO] F-test Prob(chi2>chi2(data)) == 0.254
-[INFO] Function: Bernstein, order: 3, prevNll: 41687.2, thisNll: 41686.6, chi2: 1.18315, prob: 0.254
+[INFO] F-test Prob(chi2>chi2(data)) == 0.318
+[INFO] Function: Bernstein, order: 3, prevNll: 14335, thisNll: 14334.5, chi2: 0.973566, prob: 0.318
 [INFO] Determining Envelope Functions for Family: Bernstein, cat: Merged2Gsf_EBHR9
 [INFO] Upper end Threshold for highest order function 0.1
-[INFO] Function: Bernstein, order: 1, prevNll: 0, thisNll: 41705.9, chi2: -83411.8, prob: 0
+[INFO] Function: Bernstein, order: 1, prevNll: 0, thisNll: 14352, chi2: -28704, prob: 0
 [INFO] Calculating GOF for pdf ext, using 2 fitted parameters
-[INFO] Chi2 in Observed = 96.6709
-[INFO] p-value = 0.00108542
+[INFO] Chi2 in Observed = 81.4748
+[INFO] p-value = 0.0227474
 Info in <TCanvas::Print>: pdf file plots/fTest/single_fit/Bernstein1_Merged2Gsf_EBHR9_13TeV.pdf has been created
-[INFO] Function: Bernstein, order: 2, prevNll: 41705.9, thisNll: 41687.2, chi2: 37.43, prob: 9.47528e-10
+[INFO] Adding to Envelope env_pdf_Merged2Gsf_EBHR9_13TeV_bern1 0.0227474 2xNLL + c is 28706
+[INFO] Function: Bernstein, order: 2, prevNll: 14352, thisNll: 14335, chi2: 33.9627, prob: 5.61778e-09
 [INFO] Calculating GOF for pdf ext, using 3 fitted parameters
-[INFO] Chi2 in Observed = 59.4658
-[INFO] p-value = 0.385923
+[INFO] Chi2 in Observed = 50.0403
+[INFO] p-value = 0.731477
 Info in <TCanvas::Print>: pdf file plots/fTest/single_fit/Bernstein2_Merged2Gsf_EBHR9_13TeV.pdf has been created
-[INFO] Adding to Envelope env_pdf_Merged2Gsf_EBHR9_13TeV_bern2 0.385923 2xNLL + c is 83377.3
-[INFO] Function: Bernstein, order: 3, prevNll: 41687.2, thisNll: 41686.6, chi2: 1.18315, prob: 0.276716
+[INFO] Adding to Envelope env_pdf_Merged2Gsf_EBHR9_13TeV_bern2 0.731477 2xNLL + c is 28673
+[INFO] Function: Bernstein, order: 3, prevNll: 14335, thisNll: 14334.5, chi2: 0.973566, prob: 0.323792
 [INFO] Calculating GOF for pdf ext, using 4 fitted parameters
-[INFO] Chi2 in Observed = 58.3219
-[INFO] p-value = 0.39002
+[INFO] Chi2 in Observed = 49.156
+[INFO] p-value = 0.729529
 Info in <TCanvas::Print>: pdf file plots/fTest/single_fit/Bernstein3_Merged2Gsf_EBHR9_13TeV.pdf has been created
 --------------------------
 [INFO] Perform the F-test on:  category Merged2Gsf_EBHR9, ftest_pdf_Merged2Gsf_EBHR9_13TeV_exp1
-[INFO] Function: Exponential, order: 1, prevNll: 0, thisNll: 41688.4, chi2: -83376.7, prob: 0
+[INFO] Function: Exponential, order: 1, prevNll: 0, thisNll: 14336.2, chi2: -28672.4, prob: 0
 ERROR -- addExponential -- only odd number of params allowed
 --------------------------
 [INFO] Perform the F-test on:  category Merged2Gsf_EBHR9, ftest_pdf_Merged2Gsf_EBHR9_13TeV_exp3
-Info in <Minuit2>: Minuit2Minimizer::Minimize : Minimization did NOT converge, Edm is above max
-Info in <Minuit2>: Minuit2Minimizer::Minimize : Minimization did NOT converge, Edm is above max
-Info in <Minuit2>: Minuit2Minimizer::Minimize : Minimization did NOT converge, Edm is above max
-Info in <Minuit2>: Minuit2Minimizer::Minimize : Minimization did NOT converge, Edm is above max
-Info in <Minuit2>: Minuit2Minimizer::Minimize : Minimization did NOT converge, Edm is above max
-Info in <Minuit2>: Minuit2Minimizer::Minimize : Minimization did NOT converge, Edm is above max
-Info in <Minuit2>: Minuit2Minimizer::Minimize : Minimization did NOT converge, Edm is above max
-Info in <Minuit2>: Minuit2Minimizer::Minimize : Minimization did NOT converge, Edm is above max
-Info in <Minuit2>: Minuit2Minimizer::Minimize : Minimization did NOT converge, Edm is above max
-Info in <Minuit2>: Minuit2Minimizer::Minimize : Minimization did NOT converge, Edm is above max
-Info in <Minuit2>: Minuit2Minimizer::Minimize : Minimization did NOT converge, Edm is above max
-Info in <Minuit2>: Minuit2Minimizer::Minimize : Minimization did NOT converge, Edm is above max
-Info in <Minuit2>: Minuit2Minimizer::Minimize : Minimization did NOT converge, Edm is above max
-Info in <Minuit2>: Minuit2Minimizer::Minimize : Minimization did NOT converge, Edm is above max
-Info in <Minuit2>: Minuit2Minimizer::Minimize : Minimization did NOT converge, Edm is above max
-Info in <Minuit2>: Minuit2Minimizer::Minimize : Minimization did NOT converge, Edm is above max
-Info in <Minuit2>: Minuit2Minimizer::Minimize : Minimization did NOT converge, Edm is above max
-Info in <Minuit2>: Minuit2Minimizer::Minimize : Minimization did NOT converge, Edm is above max
-Info in <Minuit2>: Minuit2Minimizer::Minimize : Minimization did NOT converge, Edm is above max
-Info in <Minuit2>: Minuit2Minimizer::Minimize : Minimization did NOT converge, Edm is above max
-Info in <Minuit2>: Minuit2Minimizer::Minimize : Minimization did NOT converge, Edm is above max
-Info in <Minuit2>: Minuit2Minimizer::Minimize : Minimization did NOT converge, Edm is above max
-Info in <Minuit2>: Minuit2Minimizer::Minimize : Minimization did NOT converge, Edm is above max
-Info in <Minuit2>: Minuit2Minimizer::Minimize : Minimization did NOT converge, Edm is above max
-Info in <Minuit2>: Minuit2Minimizer::Minimize : Minimization did NOT converge, Edm is above max
-Info in <Minuit2>: Minuit2Minimizer::Minimize : Minimization did NOT converge, Edm is above max
-Info in <Minuit2>: Minuit2Minimizer::Minimize : Minimization did NOT converge, Edm is above max
-Info in <Minuit2>: Minuit2Minimizer::Minimize : Minimization did NOT converge, Edm is above max
-Info in <Minuit2>: Minuit2Minimizer::Minimize : Minimization did NOT converge, Edm is above max
-Info in <Minuit2>: Minuit2Minimizer::Minimize : Minimization did NOT converge, Edm is above max
-Info in <Minuit2>: Minuit2Minimizer::Minimize : Minimization did NOT converge, Edm is above max
-Info in <Minuit2>: Minuit2Minimizer::Minimize : Minimization did NOT converge, Edm is above max
-Info in <Minuit2>: Minuit2Minimizer::Minimize : Minimization did NOT converge, Edm is above max
-Info in <Minuit2>: Minuit2Minimizer::Minimize : Minimization did NOT converge, Edm is above max
-Info in <Minuit2>: Minuit2Minimizer::Minimize : Minimization did NOT converge, Edm is above max
-Info in <Minuit2>: Minuit2Minimizer::Minimize : Minimization did NOT converge, Edm is above max
-Info in <Minuit2>: Minuit2Minimizer::Minimize : Minimization did NOT converge, Edm is above max
-Info in <Minuit2>: Minuit2Minimizer::Minimize : Minimization did NOT converge, Edm is above max
-Info in <Minuit2>: Minuit2Minimizer::Minimize : Minimization did NOT converge, Edm is above max
-Info in <Minuit2>: Minuit2Minimizer::Minimize : Minimization did NOT converge, Edm is above max
 Info in <TCanvas::Print>: pdf file plots/fTest/Ftest_from_Exponential3_Merged2Gsf_EBHR9_13TeV.pdf has been created
 Info in <TCanvas::Print>: pdf file plots/fTest/Ftest_from_Exponential3_Merged2Gsf_EBHR9_13TeV.pdf_fitstatus.pdf has been created
-[INFO] F-test Prob(chi2>chi2(data)) == 0.695172
-[INFO] Function: Exponential, order: 3, prevNll: 41688.4, thisNll: 41688.4, chi2: 0, prob: 0.695172
+[INFO] F-test Prob(chi2>chi2(data)) == 0.643181
+[INFO] Function: Exponential, order: 3, prevNll: 14336.2, thisNll: 14336.2, chi2: 0, prob: 0.643181
 [INFO] Determining Envelope Functions for Family: Exponential, cat: Merged2Gsf_EBHR9
 [INFO] Upper end Threshold for highest order function 0.1
 --------------------------
-[INFO] Function: Exponential, order: 1, prevNll: 0, thisNll: 41688.4, chi2: -83376.7, prob: 0
+[INFO] Function: Exponential, order: 1, prevNll: 0, thisNll: 14336.2, chi2: -28672.4, prob: 0
 [INFO] Calculating GOF for pdf ext, using 2 fitted parameters
-[INFO] Chi2 in Observed = 61.7038
-[INFO] p-value = 0.345146
+[INFO] Chi2 in Observed = 52.1697
+[INFO] p-value = 0.690805
 Info in <TCanvas::Print>: pdf file plots/fTest/single_fit/Exponential1_Merged2Gsf_EBHR9_13TeV.pdf has been created
-[INFO] Adding to Envelope env_pdf_Merged2Gsf_EBHR9_13TeV_exp1 0.345146 2xNLL + c is 83378.7
+[INFO] Adding to Envelope env_pdf_Merged2Gsf_EBHR9_13TeV_exp1 0.690805 2xNLL + c is 28674.4
 ERROR -- addExponential -- only odd number of params allowed
 --------------------------
-[INFO] Function: Exponential, order: 3, prevNll: 41688.4, thisNll: 41688.4, chi2: 0, prob: 1
+[INFO] Function: Exponential, order: 3, prevNll: 14336.2, thisNll: 14336.2, chi2: 0, prob: 1
 [INFO] Calculating GOF for pdf ext, using 4 fitted parameters
-[INFO] Chi2 in Observed = 61.7089
-[INFO] p-value = 0.279388
+[INFO] Chi2 in Observed = 52.1701
+[INFO] p-value = 0.620606
 Info in <TCanvas::Print>: pdf file plots/fTest/single_fit/Exponential3_Merged2Gsf_EBHR9_13TeV.pdf has been created
 [INFO] Perform the F-test on:  category Merged2Gsf_EBHR9, ftest_pdf_Merged2Gsf_EBHR9_13TeV_pow1
-[INFO] Function: PowerLaw, order: 1, prevNll: 0, thisNll: 41693, chi2: -83386.1, prob: 0
+[INFO] Function: PowerLaw, order: 1, prevNll: 0, thisNll: 14338.8, chi2: -28677.7, prob: 0
 ERROR -- addPowerLaw -- only odd number of params allowed
 [INFO] Perform the F-test on:  category Merged2Gsf_EBHR9, ftest_pdf_Merged2Gsf_EBHR9_13TeV_pow3
-[WARNING] Warning -- Fit status for ftest_pdf_Merged2Gsf_EBHR9_13TeV_pow3 at 1
-Info in <Minuit2>: Minuit2Minimizer::Minimize : Minimization did NOT converge, Edm is above max
-Warning in <ROOT::Math::Fitter::CalculateHessErrors>: Error when calculating Hessian
-Info in <Minuit2>: Minuit2Minimizer::Minimize : Minimization did NOT converge, Edm is above max
-Info in <Minuit2>: Minuit2Minimizer::Minimize : Minimization did NOT converge, Edm is above max
-Info in <Minuit2>: Minuit2Minimizer::Minimize : Minimization did NOT converge, Edm is above max
-Info in <Minuit2>: Minuit2Minimizer::Minimize : Minimization did NOT converge, Reached call limit
-Warning in <ROOT::Math::Fitter::CalculateHessErrors>: Error when calculating Hessian
-Warning in <ROOT::Math::Fitter::CalculateHessErrors>: Error when calculating Hessian
-[#0] ERROR:Fitting -- RooAbsPdf::fitTo(ftest_pdf_Merged2Gsf_EBHR9_13TeV_pow3) ERROR: Cannot apply sum-of-weights correction to covariance matrix: correction matrix calculated with weight-squared is singular
-Warning in <ROOT::Math::Fitter::CalculateHessErrors>: Error when calculating Hessian
-Warning in <ROOT::Math::Fitter::CalculateHessErrors>: Error when calculating Hessian
-Info in <Minuit2>: Minuit2Minimizer::Minimize : Minimization did NOT converge, Edm is above max
-Info in <Minuit2>: Minuit2Minimizer::Minimize : Minimization did NOT converge, Edm is above max
 Info in <TCanvas::Print>: pdf file plots/fTest/Ftest_from_PowerLaw3_Merged2Gsf_EBHR9_13TeV.pdf has been created
 Info in <TCanvas::Print>: pdf file plots/fTest/Ftest_from_PowerLaw3_Merged2Gsf_EBHR9_13TeV.pdf_fitstatus.pdf has been created
-[INFO] F-test Prob(chi2>chi2(data)) == 0.83592
-[INFO] Function: PowerLaw, order: 3, prevNll: 41693, thisNll: 41693, chi2: 0, prob: 0.83592
+[INFO] F-test Prob(chi2>chi2(data)) == 0.599699
+[INFO] Function: PowerLaw, order: 3, prevNll: 14338.8, thisNll: 14338.8, chi2: 0, prob: 0.599699
 [INFO] Determining Envelope Functions for Family: PowerLaw, cat: Merged2Gsf_EBHR9
 [INFO] Upper end Threshold for highest order function 0.1
-[INFO] Function: PowerLaw, order: 1, prevNll: 0, thisNll: 41693, chi2: -83386.1, prob: 0
+[INFO] Function: PowerLaw, order: 1, prevNll: 0, thisNll: 14338.8, chi2: -28677.7, prob: 0
 [INFO] Calculating GOF for pdf ext, using 2 fitted parameters
-[INFO] Chi2 in Observed = 70.5623
-[INFO] p-value = 0.124591
+[INFO] Chi2 in Observed = 56.6149
+[INFO] p-value = 0.526934
 Info in <TCanvas::Print>: pdf file plots/fTest/single_fit/PowerLaw1_Merged2Gsf_EBHR9_13TeV.pdf has been created
-[INFO] Adding to Envelope env_pdf_Merged2Gsf_EBHR9_13TeV_pow1 0.124591 2xNLL + c is 83388.1
+[INFO] Adding to Envelope env_pdf_Merged2Gsf_EBHR9_13TeV_pow1 0.526934 2xNLL + c is 28679.7
 ERROR -- addPowerLaw -- only odd number of params allowed
-[INFO] Function: PowerLaw, order: 3, prevNll: 41693, thisNll: 41693, chi2: 0, prob: 1
+[INFO] Function: PowerLaw, order: 3, prevNll: 14338.8, thisNll: 14338.8, chi2: 0, prob: 1
 [INFO] Calculating GOF for pdf ext, using 4 fitted parameters
-[INFO] Chi2 in Observed = 70.5624
-[INFO] p-value = 0.0911207
+[INFO] Chi2 in Observed = 56.615
+[INFO] p-value = 0.45189
 Info in <TCanvas::Print>: pdf file plots/fTest/single_fit/PowerLaw3_Merged2Gsf_EBHR9_13TeV.pdf has been created
 [INFO] Perform the F-test on:  category Merged2Gsf_EBHR9, ftest_pdf_Merged2Gsf_EBHR9_13TeV_lau1
-[INFO] Function: Laurent, order: 1, prevNll: 0, thisNll: 41769.9, chi2: -83539.9, prob: 0
+[INFO] Function: Laurent, order: 1, prevNll: 0, thisNll: 14340.7, chi2: -28681.5, prob: 0
 [INFO] Perform the F-test on:  category Merged2Gsf_EBHR9, ftest_pdf_Merged2Gsf_EBHR9_13TeV_lau2
-Info in <Minuit2>: Minuit2Minimizer::Minimize : Minimization did NOT converge, Edm is above max
-Info in <Minuit2>: Minuit2Minimizer::Minimize : Minimization did NOT converge, Reached call limit
-Warning in <ROOT::Math::Fitter::CalculateHessErrors>: Error when calculating Hessian
-Warning in <ROOT::Math::Fitter::CalculateHessErrors>: Error when calculating Hessian
-[#0] ERROR:Fitting -- RooAbsPdf::fitTo(ftest_pdf_Merged2Gsf_EBHR9_13TeV_lau2) ERROR: Cannot apply sum-of-weights correction to covariance matrix: correction matrix calculated with weight-squared is singular
-Info in <Minuit2>: Minuit2Minimizer::Minimize : Minimization did NOT converge, Edm is above max
-Info in <Minuit2>: Minuit2Minimizer::Minimize : Minimization did NOT converge, Edm is above max
-Info in <Minuit2>: Minuit2Minimizer::Minimize : Minimization did NOT converge, Edm is above max
-Info in <Minuit2>: Minuit2Minimizer::Minimize : Minimization did NOT converge, Edm is above max
-Info in <Minuit2>: Minuit2Minimizer::Minimize : Minimization did NOT converge, Edm is above max
-Info in <Minuit2>: Minuit2Minimizer::Minimize : Minimization did NOT converge, Edm is above max
-Warning in <ROOT::Math::Fitter::CalculateHessErrors>: Error when calculating Hessian
-Warning in <ROOT::Math::Fitter::CalculateHessErrors>: Error when calculating Hessian
-[#0] ERROR:Fitting -- RooAbsPdf::fitTo(ftest_pdf_Merged2Gsf_EBHR9_13TeV_lau2) ERROR: Cannot apply sum-of-weights correction to covariance matrix: correction matrix calculated with weight-squared is singular
 Info in <TCanvas::Print>: pdf file plots/fTest/Ftest_from_Laurent2_Merged2Gsf_EBHR9_13TeV.pdf has been created
 Info in <TCanvas::Print>: pdf file plots/fTest/Ftest_from_Laurent2_Merged2Gsf_EBHR9_13TeV.pdf_fitstatus.pdf has been created
-[INFO] F-test Prob(chi2>chi2(data)) == 0
-[INFO] Function: Laurent, order: 2, prevNll: 41769.9, thisNll: 41693, chi2: 153.802, prob: 0
+[INFO] F-test Prob(chi2>chi2(data)) == 0.035035
+[INFO] Function: Laurent, order: 2, prevNll: 14340.7, thisNll: 14339, chi2: 3.41484, prob: 0.035035
 [INFO] Perform the F-test on:  category Merged2Gsf_EBHR9, ftest_pdf_Merged2Gsf_EBHR9_13TeV_lau3
-Info in ROOT::Math::ParameterSettings>: lower/upper bounds outside current parameter value. The value will be set to (low+up)/2 
-Info in ROOT::Math::ParameterSettings>: lower/upper bounds outside current parameter value. The value will be set to (low+up)/2 
-Info in ROOT::Math::ParameterSettings>: lower/upper bounds outside current parameter value. The value will be set to (low+up)/2 
-Info in ROOT::Math::ParameterSettings>: lower/upper bounds outside current parameter value. The value will be set to (low+up)/2 
-Info in <Minuit2>: Minuit2Minimizer::Minimize : Minimization did NOT converge, Edm is above max
-Info in <Minuit2>: Minuit2Minimizer::Minimize : Minimization did NOT converge, Edm is above max
+Info in <ROOT::Math::ParameterSettings>: lower/upper bounds outside current parameter value. The value will be set to (low+up)/2 
+Info in <ROOT::Math::ParameterSettings>: lower/upper bounds outside current parameter value. The value will be set to (low+up)/2 
+Info in <ROOT::Math::ParameterSettings>: lower/upper bounds outside current parameter value. The value will be set to (low+up)/2 
+Info in <ROOT::Math::ParameterSettings>: lower/upper bounds outside current parameter value. The value will be set to (low+up)/2 
+Info in <ROOT::Math::ParameterSettings>: lower/upper bounds outside current parameter value. The value will be set to (low+up)/2 
+Info in <ROOT::Math::ParameterSettings>: lower/upper bounds outside current parameter value. The value will be set to (low+up)/2 
 Info in <TCanvas::Print>: pdf file plots/fTest/Ftest_from_Laurent3_Merged2Gsf_EBHR9_13TeV.pdf has been created
 Info in <TCanvas::Print>: pdf file plots/fTest/Ftest_from_Laurent3_Merged2Gsf_EBHR9_13TeV.pdf_fitstatus.pdf has been created
-[INFO] F-test Prob(chi2>chi2(data)) == 0.23774
-[INFO] Function: Laurent, order: 3, prevNll: 41693, thisNll: 41693, chi2: 0.00283302, prob: 0.23774
+[INFO] F-test Prob(chi2>chi2(data)) == 0.544132
+[INFO] Function: Laurent, order: 3, prevNll: 14339, thisNll: 14339, chi2: 0, prob: 0.544132
 [INFO] Determining Envelope Functions for Family: Laurent, cat: Merged2Gsf_EBHR9
 [INFO] Upper end Threshold for highest order function 0.1
-[INFO] Function: Laurent, order: 1, prevNll: 0, thisNll: 41769.9, chi2: -83539.9, prob: 0
+[INFO] Function: Laurent, order: 1, prevNll: 0, thisNll: 14340.7, chi2: -28681.5, prob: 0
 [INFO] Calculating GOF for pdf ext, using 2 fitted parameters
-[INFO] Chi2 in Observed = 223.995
-[INFO] p-value = 2.38242e-21
+[INFO] Chi2 in Observed = 60.4604
+[INFO] p-value = 0.387047
 Info in <TCanvas::Print>: pdf file plots/fTest/single_fit/Laurent1_Merged2Gsf_EBHR9_13TeV.pdf has been created
-[INFO] Function: Laurent, order: 2, prevNll: 41769.9, thisNll: 41693, chi2: 153.802, prob: 2.55898e-35
+[INFO] Adding to Envelope env_pdf_Merged2Gsf_EBHR9_13TeV_lau1 0.387047 2xNLL + c is 28683.5
+[INFO] Function: Laurent, order: 2, prevNll: 14340.7, thisNll: 14339, chi2: 3.41484, prob: 0.0646128
 [INFO] Calculating GOF for pdf ext, using 3 fitted parameters
-[INFO] Chi2 in Observed = 70.5727
-[INFO] p-value = 0.106808
+[INFO] Chi2 in Observed = 56.9735
+[INFO] p-value = 0.476075
 Info in <TCanvas::Print>: pdf file plots/fTest/single_fit/Laurent2_Merged2Gsf_EBHR9_13TeV.pdf has been created
-[INFO] Adding to Envelope env_pdf_Merged2Gsf_EBHR9_13TeV_lau2 0.106808 2xNLL + c is 83389.1
-[INFO] Function: Laurent, order: 3, prevNll: 41693, thisNll: 41693, chi2: 0.00283302, prob: 0.957552
+[INFO] Adding to Envelope env_pdf_Merged2Gsf_EBHR9_13TeV_lau2 0.476075 2xNLL + c is 28681.1
+[INFO] Function: Laurent, order: 3, prevNll: 14339, thisNll: 14339, chi2: 0, prob: 1
 [INFO] Calculating GOF for pdf ext, using 4 fitted parameters
-[INFO] Chi2 in Observed = 70.5704
-[INFO] p-value = 0.0910148
+[INFO] Chi2 in Observed = 56.9738
+[INFO] p-value = 0.438629
 Info in <TCanvas::Print>: pdf file plots/fTest/single_fit/Laurent3_Merged2Gsf_EBHR9_13TeV.pdf has been created
 // ------------------------------------------------------------------------- //
-[INFO] Created MultiPdf CMS_higgs_Merged2Gsf_EBHR9_13TeV_bkgshape, in Category 3 with a total of 4 pdfs
-RooArgList::store = (env_pdf_Merged2Gsf_EBHR9_13TeV_bern2,env_pdf_Merged2Gsf_EBHR9_13TeV_exp1,env_pdf_Merged2Gsf_EBHR9_13TeV_pow1,env_pdf_Merged2Gsf_EBHR9_13TeV_lau2)
-[INFO] Best Fit Pdf = 0, env_pdf_Merged2Gsf_EBHR9_13TeV_bern2
+[INFO] Created MultiPdf CMS_higgs_Merged2Gsf_EBHR9_13TeV_bkgshape, in Category 2 with a total of 6 pdfs
+RooArgList::store = (env_pdf_Merged2Gsf_EBHR9_13TeV_bern1,env_pdf_Merged2Gsf_EBHR9_13TeV_bern2,env_pdf_Merged2Gsf_EBHR9_13TeV_exp1,env_pdf_Merged2Gsf_EBHR9_13TeV_pow1,env_pdf_Merged2Gsf_EBHR9_13TeV_lau1,env_pdf_Merged2Gsf_EBHR9_13TeV_lau2)
+[INFO] Best Fit Pdf = 1, env_pdf_Merged2Gsf_EBHR9_13TeV_bern2
 // ------------------------------------------------------------------------- //
-[INFO] Simple check of index 0
+[INFO] Simple check of index 1
+env_pdf_Merged2Gsf_EBHR9_13TeV_bern1
 env_pdf_Merged2Gsf_EBHR9_13TeV_bern2
 env_pdf_Merged2Gsf_EBHR9_13TeV_exp1
 env_pdf_Merged2Gsf_EBHR9_13TeV_pow1
+env_pdf_Merged2Gsf_EBHR9_13TeV_lau1
 env_pdf_Merged2Gsf_EBHR9_13TeV_lau2
 H #rightarrow #gamma*#gamma #rightarrow ee#gamma
 [INFO]: CMS_lumi_mod.C macro is done!
-[INFO] plotdata->Integral() 1909 ( bins 60) hbkgplots[i]->Integral() 1908.97 (bins 60
-[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 0 : xtmp 110.5  ytmp 313 bkgval  303.655 ytmp-bkgval 9.34497
-[INFO] plotdata->Integral() 1909 ( bins 60) hbkgplots[i]->Integral() 1908.97 (bins 60
-[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 1 : xtmp 111.5  ytmp 285 bkgval  297.795 ytmp-bkgval -12.7955
-[INFO] plotdata->Integral() 1909 ( bins 60) hbkgplots[i]->Integral() 1908.97 (bins 60
-[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 2 : xtmp 112.5  ytmp 298 bkgval  292.009 ytmp-bkgval 5.99061
-[INFO] plotdata->Integral() 1909 ( bins 60) hbkgplots[i]->Integral() 1908.97 (bins 60
-[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 3 : xtmp 113.5  ytmp 265 bkgval  286.297 ytmp-bkgval -21.2967
-[INFO] plotdata->Integral() 1909 ( bins 60) hbkgplots[i]->Integral() 1908.97 (bins 60
-[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 4 : xtmp 114.5  ytmp 292 bkgval  280.658 ytmp-bkgval 11.3425
-[INFO] plotdata->Integral() 1909 ( bins 60) hbkgplots[i]->Integral() 1908.97 (bins 60
-[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 5 : xtmp 115.5  ytmp 263 bkgval  275.092 ytmp-bkgval -12.0918
-[INFO] plotdata->Integral() 1909 ( bins 60) hbkgplots[i]->Integral() 1908.97 (bins 60
-[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 6 : xtmp 116.5  ytmp 280 bkgval  269.6 ytmp-bkgval 10.4005
-[INFO] plotdata->Integral() 1909 ( bins 60) hbkgplots[i]->Integral() 1908.97 (bins 60
-[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 7 : xtmp 117.5  ytmp 278 bkgval  264.181 ytmp-bkgval 13.8193
-[INFO] plotdata->Integral() 1909 ( bins 60) hbkgplots[i]->Integral() 1908.97 (bins 60
-[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 8 : xtmp 118.5  ytmp 238 bkgval  258.835 ytmp-bkgval -20.8353
-[INFO] plotdata->Integral() 1909 ( bins 60) hbkgplots[i]->Integral() 1908.97 (bins 60
-[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 9 : xtmp 119.5  ytmp 247 bkgval  253.563 ytmp-bkgval -6.56332
-[INFO] plotdata->Integral() 1909 ( bins 60) hbkgplots[i]->Integral() 1908.97 (bins 60
-[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 10 : xtmp 130.5  ytmp 210 bkgval  200.42 ytmp-bkgval 9.58038
-[INFO] plotdata->Integral() 1909 ( bins 60) hbkgplots[i]->Integral() 1908.97 (bins 60
-[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 11 : xtmp 131.5  ytmp 198 bkgval  196.029 ytmp-bkgval 1.97092
-[INFO] plotdata->Integral() 1909 ( bins 60) hbkgplots[i]->Integral() 1908.97 (bins 60
-[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 12 : xtmp 132.5  ytmp 174 bkgval  191.712 ytmp-bkgval -17.712
-[INFO] plotdata->Integral() 1909 ( bins 60) hbkgplots[i]->Integral() 1908.97 (bins 60
-[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 13 : xtmp 133.5  ytmp 173 bkgval  187.468 ytmp-bkgval -14.4683
-[INFO] plotdata->Integral() 1909 ( bins 60) hbkgplots[i]->Integral() 1908.97 (bins 60
-[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 14 : xtmp 134.5  ytmp 206 bkgval  183.298 ytmp-bkgval 22.7019
-[INFO] plotdata->Integral() 1909 ( bins 60) hbkgplots[i]->Integral() 1908.97 (bins 60
-[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 15 : xtmp 135.5  ytmp 193 bkgval  179.201 ytmp-bkgval 13.7986
-[INFO] plotdata->Integral() 1909 ( bins 60) hbkgplots[i]->Integral() 1908.97 (bins 60
-[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 16 : xtmp 136.5  ytmp 172 bkgval  175.178 ytmp-bkgval -3.17811
-[INFO] plotdata->Integral() 1909 ( bins 60) hbkgplots[i]->Integral() 1908.97 (bins 60
-[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 17 : xtmp 137.5  ytmp 174 bkgval  171.228 ytmp-bkgval 2.77174
-[INFO] plotdata->Integral() 1909 ( bins 60) hbkgplots[i]->Integral() 1908.97 (bins 60
-[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 18 : xtmp 138.5  ytmp 174 bkgval  167.352 ytmp-bkgval 6.64813
-[INFO] plotdata->Integral() 1909 ( bins 60) hbkgplots[i]->Integral() 1908.97 (bins 60
-[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 19 : xtmp 139.5  ytmp 166 bkgval  163.549 ytmp-bkgval 2.45107
-[INFO] plotdata->Integral() 1909 ( bins 60) hbkgplots[i]->Integral() 1908.97 (bins 60
-[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 20 : xtmp 140.5  ytmp 165 bkgval  159.819 ytmp-bkgval 5.18057
-[INFO] plotdata->Integral() 1909 ( bins 60) hbkgplots[i]->Integral() 1908.97 (bins 60
-[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 21 : xtmp 141.5  ytmp 150 bkgval  156.163 ytmp-bkgval -6.16339
-[INFO] plotdata->Integral() 1909 ( bins 60) hbkgplots[i]->Integral() 1908.97 (bins 60
-[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 22 : xtmp 142.5  ytmp 149 bkgval  152.581 ytmp-bkgval -3.5808
-[INFO] plotdata->Integral() 1909 ( bins 60) hbkgplots[i]->Integral() 1908.97 (bins 60
-[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 23 : xtmp 143.5  ytmp 144 bkgval  149.072 ytmp-bkgval -5.07165
-[INFO] plotdata->Integral() 1909 ( bins 60) hbkgplots[i]->Integral() 1908.97 (bins 60
-[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 24 : xtmp 144.5  ytmp 131 bkgval  145.636 ytmp-bkgval -14.636
-[INFO] plotdata->Integral() 1909 ( bins 60) hbkgplots[i]->Integral() 1908.97 (bins 60
-[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 25 : xtmp 145.5  ytmp 155 bkgval  142.274 ytmp-bkgval 12.7263
-[INFO] plotdata->Integral() 1909 ( bins 60) hbkgplots[i]->Integral() 1908.97 (bins 60
-[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 26 : xtmp 146.5  ytmp 140 bkgval  138.985 ytmp-bkgval 1.01507
-[INFO] plotdata->Integral() 1909 ( bins 60) hbkgplots[i]->Integral() 1908.97 (bins 60
-[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 27 : xtmp 147.5  ytmp 113 bkgval  135.77 ytmp-bkgval -22.7696
-[INFO] plotdata->Integral() 1909 ( bins 60) hbkgplots[i]->Integral() 1908.97 (bins 60
-[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 28 : xtmp 148.5  ytmp 120 bkgval  132.628 ytmp-bkgval -12.6277
-[INFO] plotdata->Integral() 1909 ( bins 60) hbkgplots[i]->Integral() 1908.97 (bins 60
-[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 29 : xtmp 149.5  ytmp 109 bkgval  129.559 ytmp-bkgval -20.5592
-[INFO] plotdata->Integral() 1909 ( bins 60) hbkgplots[i]->Integral() 1908.97 (bins 60
-[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 30 : xtmp 150.5  ytmp 158 bkgval  126.564 ytmp-bkgval 31.4357
-[INFO] plotdata->Integral() 1909 ( bins 60) hbkgplots[i]->Integral() 1908.97 (bins 60
-[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 31 : xtmp 151.5  ytmp 109 bkgval  123.643 ytmp-bkgval -14.6427
-[INFO] plotdata->Integral() 1909 ( bins 60) hbkgplots[i]->Integral() 1908.97 (bins 60
-[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 32 : xtmp 152.5  ytmp 125 bkgval  120.795 ytmp-bkgval 4.20538
-[INFO] plotdata->Integral() 1909 ( bins 60) hbkgplots[i]->Integral() 1908.97 (bins 60
-[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 33 : xtmp 153.5  ytmp 116 bkgval  118.02 ytmp-bkgval -2.01998
-[INFO] plotdata->Integral() 1909 ( bins 60) hbkgplots[i]->Integral() 1908.97 (bins 60
-[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 34 : xtmp 154.5  ytmp 99 bkgval  115.319 ytmp-bkgval -16.3188
-[INFO] plotdata->Integral() 1909 ( bins 60) hbkgplots[i]->Integral() 1908.97 (bins 60
-[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 35 : xtmp 155.5  ytmp 121 bkgval  112.691 ytmp-bkgval 8.30895
-[INFO] plotdata->Integral() 1909 ( bins 60) hbkgplots[i]->Integral() 1908.97 (bins 60
-[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 36 : xtmp 156.5  ytmp 123 bkgval  110.137 ytmp-bkgval 12.8632
-[INFO] plotdata->Integral() 1909 ( bins 60) hbkgplots[i]->Integral() 1908.97 (bins 60
-[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 37 : xtmp 157.5  ytmp 113 bkgval  107.656 ytmp-bkgval 5.34409
-[INFO] plotdata->Integral() 1909 ( bins 60) hbkgplots[i]->Integral() 1908.97 (bins 60
-[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 38 : xtmp 158.5  ytmp 111 bkgval  105.249 ytmp-bkgval 5.75148
-[INFO] plotdata->Integral() 1909 ( bins 60) hbkgplots[i]->Integral() 1908.97 (bins 60
-[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 39 : xtmp 159.5  ytmp 113 bkgval  102.915 ytmp-bkgval 10.0854
-[INFO] plotdata->Integral() 1909 ( bins 60) hbkgplots[i]->Integral() 1908.97 (bins 60
-[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 40 : xtmp 160.5  ytmp 100 bkgval  100.654 ytmp-bkgval -0.654088
-[INFO] plotdata->Integral() 1909 ( bins 60) hbkgplots[i]->Integral() 1908.97 (bins 60
-[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 41 : xtmp 161.5  ytmp 91 bkgval  98.467 ytmp-bkgval -7.46705
-[INFO] plotdata->Integral() 1909 ( bins 60) hbkgplots[i]->Integral() 1908.97 (bins 60
-[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 42 : xtmp 162.5  ytmp 104 bkgval  96.3535 ytmp-bkgval 7.64654
-[INFO] plotdata->Integral() 1909 ( bins 60) hbkgplots[i]->Integral() 1908.97 (bins 60
-[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 43 : xtmp 163.5  ytmp 73 bkgval  94.3133 ytmp-bkgval -21.3133
-[INFO] plotdata->Integral() 1909 ( bins 60) hbkgplots[i]->Integral() 1908.97 (bins 60
-[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 44 : xtmp 164.5  ytmp 84 bkgval  92.3466 ytmp-bkgval -8.34662
-[INFO] plotdata->Integral() 1909 ( bins 60) hbkgplots[i]->Integral() 1908.97 (bins 60
-[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 45 : xtmp 165.5  ytmp 99 bkgval  90.4534 ytmp-bkgval 8.54662
-[INFO] plotdata->Integral() 1909 ( bins 60) hbkgplots[i]->Integral() 1908.97 (bins 60
-[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 46 : xtmp 166.5  ytmp 78 bkgval  88.6336 ytmp-bkgval -10.6336
-[INFO] plotdata->Integral() 1909 ( bins 60) hbkgplots[i]->Integral() 1908.97 (bins 60
-[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 47 : xtmp 167.5  ytmp 88 bkgval  86.8873 ytmp-bkgval 1.11275
-[INFO] plotdata->Integral() 1909 ( bins 60) hbkgplots[i]->Integral() 1908.97 (bins 60
-[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 48 : xtmp 168.5  ytmp 88 bkgval  85.2144 ytmp-bkgval 2.78564
-[INFO] plotdata->Integral() 1909 ( bins 60) hbkgplots[i]->Integral() 1908.97 (bins 60
-[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 49 : xtmp 169.5  ytmp 96 bkgval  83.6149 ytmp-bkgval 12.3851
+[INFO] plotdata->Integral() 454 ( bins 60) hbkgplots[i]->Integral() 453.987 (bins 60
+[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 0 : xtmp 110.5  ytmp 112 bkgval  118.49 ytmp-bkgval -6.48998
+[INFO] plotdata->Integral() 454 ( bins 60) hbkgplots[i]->Integral() 453.987 (bins 60
+[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 1 : xtmp 111.5  ytmp 131 bkgval  115.721 ytmp-bkgval 15.2789
+[INFO] plotdata->Integral() 454 ( bins 60) hbkgplots[i]->Integral() 453.987 (bins 60
+[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 2 : xtmp 112.5  ytmp 96 bkgval  112.993 ytmp-bkgval -16.9927
+[INFO] plotdata->Integral() 454 ( bins 60) hbkgplots[i]->Integral() 453.987 (bins 60
+[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 3 : xtmp 113.5  ytmp 115 bkgval  110.305 ytmp-bkgval 4.69511
+[INFO] plotdata->Integral() 454 ( bins 60) hbkgplots[i]->Integral() 453.987 (bins 60
+[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 4 : xtmp 114.5  ytmp 97 bkgval  107.658 ytmp-bkgval -10.6576
+[INFO] plotdata->Integral() 454 ( bins 60) hbkgplots[i]->Integral() 453.987 (bins 60
+[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 5 : xtmp 115.5  ytmp 112 bkgval  105.051 ytmp-bkgval 6.94907
+[INFO] plotdata->Integral() 454 ( bins 60) hbkgplots[i]->Integral() 453.987 (bins 60
+[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 6 : xtmp 116.5  ytmp 108 bkgval  102.485 ytmp-bkgval 5.51521
+[INFO] plotdata->Integral() 454 ( bins 60) hbkgplots[i]->Integral() 453.987 (bins 60
+[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 7 : xtmp 117.5  ytmp 86 bkgval  99.9592 ytmp-bkgval -13.9592
+[INFO] plotdata->Integral() 454 ( bins 60) hbkgplots[i]->Integral() 453.987 (bins 60
+[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 8 : xtmp 118.5  ytmp 90 bkgval  97.4742 ytmp-bkgval -7.47416
+[INFO] plotdata->Integral() 454 ( bins 60) hbkgplots[i]->Integral() 453.987 (bins 60
+[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 9 : xtmp 119.5  ytmp 101 bkgval  95.0297 ytmp-bkgval 5.97032
+[INFO] plotdata->Integral() 454 ( bins 60) hbkgplots[i]->Integral() 453.987 (bins 60
+[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 10 : xtmp 130.5  ytmp 58 bkgval  70.817 ytmp-bkgval -12.817
+[INFO] plotdata->Integral() 454 ( bins 60) hbkgplots[i]->Integral() 453.987 (bins 60
+[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 11 : xtmp 131.5  ytmp 65 bkgval  68.8592 ytmp-bkgval -3.85921
+[INFO] plotdata->Integral() 454 ( bins 60) hbkgplots[i]->Integral() 453.987 (bins 60
+[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 12 : xtmp 132.5  ytmp 76 bkgval  66.9419 ytmp-bkgval 9.05805
+[INFO] plotdata->Integral() 454 ( bins 60) hbkgplots[i]->Integral() 453.987 (bins 60
+[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 13 : xtmp 133.5  ytmp 80 bkgval  65.0652 ytmp-bkgval 14.9348
+[INFO] plotdata->Integral() 454 ( bins 60) hbkgplots[i]->Integral() 453.987 (bins 60
+[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 14 : xtmp 134.5  ytmp 69 bkgval  63.2291 ytmp-bkgval 5.77092
+[INFO] plotdata->Integral() 454 ( bins 60) hbkgplots[i]->Integral() 453.987 (bins 60
+[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 15 : xtmp 135.5  ytmp 67 bkgval  61.4335 ytmp-bkgval 5.56652
+[INFO] plotdata->Integral() 454 ( bins 60) hbkgplots[i]->Integral() 453.987 (bins 60
+[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 16 : xtmp 136.5  ytmp 57 bkgval  59.6784 ytmp-bkgval -2.67844
+[INFO] plotdata->Integral() 454 ( bins 60) hbkgplots[i]->Integral() 453.987 (bins 60
+[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 17 : xtmp 137.5  ytmp 52 bkgval  57.9639 ytmp-bkgval -5.96395
+[INFO] plotdata->Integral() 454 ( bins 60) hbkgplots[i]->Integral() 453.987 (bins 60
+[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 18 : xtmp 138.5  ytmp 56 bkgval  56.29 ytmp-bkgval -0.290014
+[INFO] plotdata->Integral() 454 ( bins 60) hbkgplots[i]->Integral() 453.987 (bins 60
+[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 19 : xtmp 139.5  ytmp 68 bkgval  54.6566 ytmp-bkgval 13.3434
+[INFO] plotdata->Integral() 454 ( bins 60) hbkgplots[i]->Integral() 453.987 (bins 60
+[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 20 : xtmp 140.5  ytmp 53 bkgval  53.0638 ytmp-bkgval -0.0638092
+[INFO] plotdata->Integral() 454 ( bins 60) hbkgplots[i]->Integral() 453.987 (bins 60
+[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 21 : xtmp 141.5  ytmp 43 bkgval  51.5115 ytmp-bkgval -8.51154
+[INFO] plotdata->Integral() 454 ( bins 60) hbkgplots[i]->Integral() 453.987 (bins 60
+[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 22 : xtmp 142.5  ytmp 44 bkgval  49.9998 ytmp-bkgval -5.99982
+[INFO] plotdata->Integral() 454 ( bins 60) hbkgplots[i]->Integral() 453.987 (bins 60
+[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 23 : xtmp 143.5  ytmp 45 bkgval  48.5287 ytmp-bkgval -3.52866
+[INFO] plotdata->Integral() 454 ( bins 60) hbkgplots[i]->Integral() 453.987 (bins 60
+[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 24 : xtmp 144.5  ytmp 46 bkgval  47.0981 ytmp-bkgval -1.09806
+[INFO] plotdata->Integral() 454 ( bins 60) hbkgplots[i]->Integral() 453.987 (bins 60
+[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 25 : xtmp 145.5  ytmp 49 bkgval  45.708 ytmp-bkgval 3.29199
+[INFO] plotdata->Integral() 454 ( bins 60) hbkgplots[i]->Integral() 453.987 (bins 60
+[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 26 : xtmp 146.5  ytmp 32 bkgval  44.3585 ytmp-bkgval -12.3585
+[INFO] plotdata->Integral() 454 ( bins 60) hbkgplots[i]->Integral() 453.987 (bins 60
+[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 27 : xtmp 147.5  ytmp 42 bkgval  43.0496 ytmp-bkgval -1.04958
+[INFO] plotdata->Integral() 454 ( bins 60) hbkgplots[i]->Integral() 453.987 (bins 60
+[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 28 : xtmp 148.5  ytmp 47 bkgval  41.7812 ytmp-bkgval 5.21881
+[INFO] plotdata->Integral() 454 ( bins 60) hbkgplots[i]->Integral() 453.987 (bins 60
+[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 29 : xtmp 149.5  ytmp 43 bkgval  40.5534 ytmp-bkgval 2.44664
+[INFO] plotdata->Integral() 454 ( bins 60) hbkgplots[i]->Integral() 453.987 (bins 60
+[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 30 : xtmp 150.5  ytmp 31 bkgval  39.3661 ytmp-bkgval -8.36609
+[INFO] plotdata->Integral() 454 ( bins 60) hbkgplots[i]->Integral() 453.987 (bins 60
+[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 31 : xtmp 151.5  ytmp 43 bkgval  38.2194 ytmp-bkgval 4.78063
+[INFO] plotdata->Integral() 454 ( bins 60) hbkgplots[i]->Integral() 453.987 (bins 60
+[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 32 : xtmp 152.5  ytmp 39 bkgval  37.1132 ytmp-bkgval 1.8868
+[INFO] plotdata->Integral() 454 ( bins 60) hbkgplots[i]->Integral() 453.987 (bins 60
+[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 33 : xtmp 153.5  ytmp 37 bkgval  36.0476 ytmp-bkgval 0.952409
+[INFO] plotdata->Integral() 454 ( bins 60) hbkgplots[i]->Integral() 453.987 (bins 60
+[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 34 : xtmp 154.5  ytmp 25 bkgval  35.0225 ytmp-bkgval -10.0225
+[INFO] plotdata->Integral() 454 ( bins 60) hbkgplots[i]->Integral() 453.987 (bins 60
+[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 35 : xtmp 155.5  ytmp 33 bkgval  34.038 ytmp-bkgval -1.03804
+[INFO] plotdata->Integral() 454 ( bins 60) hbkgplots[i]->Integral() 453.987 (bins 60
+[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 36 : xtmp 156.5  ytmp 36 bkgval  33.0941 ytmp-bkgval 2.90591
+[INFO] plotdata->Integral() 454 ( bins 60) hbkgplots[i]->Integral() 453.987 (bins 60
+[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 37 : xtmp 157.5  ytmp 31 bkgval  32.1907 ytmp-bkgval -1.1907
+[INFO] plotdata->Integral() 454 ( bins 60) hbkgplots[i]->Integral() 453.987 (bins 60
+[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 38 : xtmp 158.5  ytmp 22 bkgval  31.3279 ytmp-bkgval -9.32787
+[INFO] plotdata->Integral() 454 ( bins 60) hbkgplots[i]->Integral() 453.987 (bins 60
+[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 39 : xtmp 159.5  ytmp 34 bkgval  30.5056 ytmp-bkgval 3.49441
+[INFO] plotdata->Integral() 454 ( bins 60) hbkgplots[i]->Integral() 453.987 (bins 60
+[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 40 : xtmp 160.5  ytmp 32 bkgval  29.7239 ytmp-bkgval 2.27614
+[INFO] plotdata->Integral() 454 ( bins 60) hbkgplots[i]->Integral() 453.987 (bins 60
+[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 41 : xtmp 161.5  ytmp 29 bkgval  28.9827 ytmp-bkgval 0.0173078
+[INFO] plotdata->Integral() 454 ( bins 60) hbkgplots[i]->Integral() 453.987 (bins 60
+[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 42 : xtmp 162.5  ytmp 35 bkgval  28.2821 ytmp-bkgval 6.71792
+[INFO] plotdata->Integral() 454 ( bins 60) hbkgplots[i]->Integral() 453.987 (bins 60
+[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 43 : xtmp 163.5  ytmp 27 bkgval  27.622 ytmp-bkgval -0.622018
+[INFO] plotdata->Integral() 454 ( bins 60) hbkgplots[i]->Integral() 453.987 (bins 60
+[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 44 : xtmp 164.5  ytmp 23 bkgval  27.0025 ytmp-bkgval -4.00251
+[INFO] plotdata->Integral() 454 ( bins 60) hbkgplots[i]->Integral() 453.987 (bins 60
+[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 45 : xtmp 165.5  ytmp 35 bkgval  26.4236 ytmp-bkgval 8.57644
+[INFO] plotdata->Integral() 454 ( bins 60) hbkgplots[i]->Integral() 453.987 (bins 60
+[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 46 : xtmp 166.5  ytmp 24 bkgval  25.8852 ytmp-bkgval -1.88517
+[INFO] plotdata->Integral() 454 ( bins 60) hbkgplots[i]->Integral() 453.987 (bins 60
+[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 47 : xtmp 167.5  ytmp 28 bkgval  25.3873 ytmp-bkgval 2.61267
+[INFO] plotdata->Integral() 454 ( bins 60) hbkgplots[i]->Integral() 453.987 (bins 60
+[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 48 : xtmp 168.5  ytmp 23 bkgval  24.93 ytmp-bkgval -1.93004
+[INFO] plotdata->Integral() 454 ( bins 60) hbkgplots[i]->Integral() 453.987 (bins 60
+[INFO] Channel  plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV setting point 49 : xtmp 169.5  ytmp 23 bkgval  24.5133 ytmp-bkgval -1.51331
 Info in <TCanvas::Print>: pdf file plots/fTest/multipdf_Merged2Gsf_EBHR9_13TeV.pdf has been created
 [INFO] datfile for BiasStudy: ./dat/fTest_Merged2Gsf_EBHR9.dat
 [RESULT] Recommended options
-Cat [Merged2Gsf_EBHR9, 3]
+Cat [Merged2Gsf_EBHR9, 2]
 	Bernstein - 2
 	Exponential - 1
 	Laurent - 2

@@ -1,0 +1,76 @@
+ --> Processing ( ggH, Resolved, 120, 2017 ) scale uncertainties
+ --> Processing ( VBF, Resolved, 120, 2017 ) scale uncertainties
+ --> Processing (  WH, Resolved, 120, 2017 ) scale uncertainties
+ --> Processing (  ZH, Resolved, 120, 2017 ) scale uncertainties
+ --> Processing ( ttH, Resolved, 120, 2017 ) scale uncertainties
+ --> Processing ( bbH, Resolved, 120, 2017 ) scale uncertainties
+ --> Processing ( ggH, Resolved, 120, 2017 ) resol uncertainties
+ --> Processing ( VBF, Resolved, 120, 2017 ) resol uncertainties
+ --> Processing (  WH, Resolved, 120, 2017 ) resol uncertainties
+ --> Processing (  ZH, Resolved, 120, 2017 ) resol uncertainties
+ --> Processing ( ttH, Resolved, 120, 2017 ) resol uncertainties
+ --> Processing ( bbH, Resolved, 120, 2017 ) resol uncertainties
+ --> Processing ( ggH, Resolved, 125, 2017 ) scale uncertainties
+ --> Processing ( VBF, Resolved, 125, 2017 ) scale uncertainties
+ --> Processing (  WH, Resolved, 125, 2017 ) scale uncertainties
+ --> Processing (  ZH, Resolved, 125, 2017 ) scale uncertainties
+ --> Processing ( ttH, Resolved, 125, 2017 ) scale uncertainties
+ --> Processing ( bbH, Resolved, 125, 2017 ) scale uncertainties
+ --> Processing ( ggH, Resolved, 125, 2017 ) resol uncertainties
+ --> Processing ( VBF, Resolved, 125, 2017 ) resol uncertainties
+ --> Processing (  WH, Resolved, 125, 2017 ) resol uncertainties
+ --> Processing (  ZH, Resolved, 125, 2017 ) resol uncertainties
+ --> Processing ( ttH, Resolved, 125, 2017 ) resol uncertainties
+ --> Processing ( bbH, Resolved, 125, 2017 ) resol uncertainties
+ --> Processing ( ggH, Resolved, 130, 2017 ) scale uncertainties
+ --> Processing ( VBF, Resolved, 130, 2017 ) scale uncertainties
+ --> Processing (  WH, Resolved, 130, 2017 ) scale uncertainties
+ --> Processing (  ZH, Resolved, 130, 2017 ) scale uncertainties
+ --> Processing ( ttH, Resolved, 130, 2017 ) scale uncertainties
+ --> Processing ( bbH, Resolved, 130, 2017 ) scale uncertainties
+ --> Processing ( ggH, Resolved, 130, 2017 ) resol uncertainties
+ --> Processing ( VBF, Resolved, 130, 2017 ) resol uncertainties
+ --> Processing (  WH, Resolved, 130, 2017 ) resol uncertainties
+ --> Processing (  ZH, Resolved, 130, 2017 ) resol uncertainties
+ --> Processing ( ttH, Resolved, 130, 2017 ) resol uncertainties
+ --> Processing ( bbH, Resolved, 130, 2017 ) resol uncertainties
+   proc       cat mass  year   nominalDataName PhoScaleStat PhoScaleSyst PhoScaleGain EleScaleStat EleScaleSyst EleScaleGain  EleTotalScale  PhoTotalScale  TotalScale
+0   ggH  Resolved  120  2017  set_120_Resolved     0.000255     0.000002     0.000002     0.000236     0.000002     0.000002       0.000236       0.000255    0.000348
+1   VBF  Resolved  120  2017  set_120_Resolved     0.000232     0.000048     0.000048     0.000243     0.000048     0.000048       0.000252       0.000242    0.000349
+2    WH  Resolved  120  2017  set_120_Resolved      0.00032      0.00002      0.00002     0.000325     0.000018     0.000018       0.000326       0.000321    0.000458
+3    ZH  Resolved  120  2017  set_120_Resolved     0.000303     0.000015     0.000015     0.000286     0.000015     0.000015       0.000287       0.000304    0.000418
+4   ttH  Resolved  120  2017  set_120_Resolved      0.00017     0.000079     0.000079     0.000317     0.000079     0.000079       0.000336       0.000203    0.000393
+5   bbH  Resolved  120  2017  set_120_Resolved      0.00034     0.000105     0.000105     0.000343     0.000105     0.000105       0.000374       0.000370    0.000526
+6   ggH  Resolved  125  2017  set_125_Resolved       0.0003     0.000008     0.000008     0.000245     0.000008     0.000008       0.000245       0.000301    0.000388
+7   VBF  Resolved  125  2017  set_125_Resolved     0.000313     0.000014     0.000014     0.000298     0.000014     0.000014       0.000298       0.000314    0.000433
+8    WH  Resolved  125  2017  set_125_Resolved     0.000237     0.000013     0.000013     0.000287     0.000013     0.000013       0.000287       0.000238    0.000373
+9    ZH  Resolved  125  2017  set_125_Resolved     0.000287     0.000068     0.000068     0.000213     0.000068     0.000068       0.000234       0.000303    0.000383
+10  ttH  Resolved  125  2017  set_125_Resolved     0.000308     0.000051     0.000051     0.000212     0.000051     0.000051       0.000224       0.000317    0.000388
+11  bbH  Resolved  125  2017  set_125_Resolved     0.000319     0.000221     0.000221     0.000258     0.000221     0.000221       0.000406       0.000447    0.000604
+12  ggH  Resolved  130  2017  set_130_Resolved     0.000282     0.000032     0.000032     0.000261     0.000032     0.000032       0.000265       0.000286    0.000390
+13  VBF  Resolved  130  2017  set_130_Resolved      0.00033     0.000108     0.000108     0.000314     0.000108     0.000108       0.000349       0.000363    0.000504
+14   WH  Resolved  130  2017  set_130_Resolved     0.000209     0.000014     0.000014     0.000189     0.000014     0.000014       0.000190       0.000210    0.000283
+15   ZH  Resolved  130  2017  set_130_Resolved      0.00025     0.000009     0.000009     0.000237     0.000009     0.000009       0.000238       0.000250    0.000345
+16  ttH  Resolved  130  2017  set_130_Resolved      0.00034     0.000002     0.000002     0.000346     0.000002     0.000002       0.000346       0.000340    0.000486
+17  bbH  Resolved  130  2017  set_130_Resolved     0.000351     0.000156     0.000156     0.000268     0.000156     0.000156       0.000347       0.000415    0.000541
+   proc       cat mass  year   nominalDataName PhoSigmaPhi PhoSigmaRho EleSigmaPhi EleSigmaRho  EleTotalResol  PhoTotalResol  TotalResol
+0   ggH  Resolved  120  2017  set_120_Resolved    0.002405    0.000199    0.002331    0.000162       0.002337       0.002413    0.003359
+1   VBF  Resolved  120  2017  set_120_Resolved    0.001888    0.000362    0.002217    0.000483       0.002269       0.001922    0.002973
+2    WH  Resolved  120  2017  set_120_Resolved    0.002441    0.000102      0.0002    0.000115       0.000231       0.002443    0.002454
+3    ZH  Resolved  120  2017  set_120_Resolved    0.002448    0.000264    0.000181     0.00014       0.000229       0.002463    0.002473
+4   ttH  Resolved  120  2017  set_120_Resolved    0.005785    0.000428     0.00444    0.002244       0.004975       0.005801    0.007642
+5   bbH  Resolved  120  2017  set_120_Resolved    0.003367    0.002007    0.002791    0.001332       0.003092       0.003920    0.004993
+6   ggH  Resolved  125  2017  set_125_Resolved    0.005123    0.000161     0.00243    0.000331       0.002452       0.005125    0.005682
+7   VBF  Resolved  125  2017  set_125_Resolved    0.005432    0.000305    0.002627    0.000683       0.002714       0.005441    0.006080
+8    WH  Resolved  125  2017  set_125_Resolved    0.002231    0.000093    0.000274    0.000139       0.000307       0.002233    0.002254
+9    ZH  Resolved  125  2017  set_125_Resolved    0.003813    0.000169    0.203802    0.000268       0.203802       0.003817    0.203838
+10  ttH  Resolved  125  2017  set_125_Resolved    0.004782    0.000158    0.000779    0.000146       0.000793       0.004785    0.004850
+11  bbH  Resolved  125  2017  set_125_Resolved    0.007164    0.000142    0.013129    0.000631       0.013144       0.007166    0.014971
+12  ggH  Resolved  130  2017  set_130_Resolved     0.00331    0.000258    0.000156    0.000178       0.000237       0.003320    0.003328
+13  VBF  Resolved  130  2017  set_130_Resolved    0.204767    0.000041    0.206171    0.000086       0.206171       0.204767    0.290579
+14   WH  Resolved  130  2017  set_130_Resolved    0.002909    0.000128    0.001115    0.000194       0.001132       0.002912    0.003124
+15   ZH  Resolved  130  2017  set_130_Resolved    0.001523    0.000116    0.000022    0.000327       0.000328       0.001527    0.001562
+16  ttH  Resolved  130  2017  set_130_Resolved    0.004499    0.000111    0.001391    0.000265       0.001416       0.004500    0.004717
+17  bbH  Resolved  130  2017  set_130_Resolved    0.002537    0.000141    0.001082    0.000268       0.001114       0.002541    0.002774
+ --> Successfully saved scale systematics as pkl file: /home/chenghan/HDalitzEle/misc/Limit/CMSSW_11_3_4/src/HLLGFinalFits/Signal/syst/shape_syst_scale_Resolved_2017.pkl
+ --> Successfully saved resol systematics as pkl file: /home/chenghan/HDalitzEle/misc/Limit/CMSSW_11_3_4/src/HLLGFinalFits/Signal/syst/shape_syst_resol_Resolved_2017.pkl

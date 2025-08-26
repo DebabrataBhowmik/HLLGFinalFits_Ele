@@ -1,0 +1,44 @@
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+Will use a-priori expected background instead of a-posteriori one.
+>>> method used is AsymptoticLimits
+Adding discrete pdfindex_Merged2Gsf_EBHR9_13TeV
+Adding discrete pdfindex_Merged2Gsf_EBLR9_13TeV
+Adding discrete pdfindex_Merged2Gsf_EE_13TeV
+SimNLL created with 3 channels, 0 generic constraints, 141 fast gaussian constraints, 0 fast poisson constraints, 0 fast group constraints, 
+WARNING: Best fit of asimov dataset is at r = 0.023434 (0.001172 times rMax), while it should be at zero
+Median for expected limits: 6.34375
+Sigma  for expected limits: 3.23667
+
+ -- AsymptoticLimits ( CLs ) --
+Expected  2.5%: r < 3.3701
+Expected 16.0%: r < 4.5085
+Expected 50.0%: r < 6.3438
+Expected 84.0%: r < 9.1505
+Expected 97.5%: r < 12.8738
+
+Done in 0.17 min (cpu), 0.17 min (real)
+Printing Message Summary From ... combine_logger.out
+----------------------------------------------
+Messages of type INFO : 10
+Messages of type DEBUG : 1
+Messages of type ERROR : 0
+----------------------------------------------
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_Merged2Gsf_VBF_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_Merged2Gsf_BST_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_Merged2Gsf_EBHR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_Merged2Gsf_EBLR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_Merged2Gsf_EE_13TeV 
+INFO: (function: generateAsimov) ToyMCSamplerOpt.cc: 145 -- Using internal logic for binned/unbinned Asimov dataset generation
+INFO: (function: generateWithHisto) ToyMCSamplerOpt.cc: 220 -- Generating asimov with histogram for pdf pdf_binch1_obsOnly: in 60 x-bins
+INFO: (function: generateAsimov) ToyMCSamplerOpt.cc: 145 -- Using internal logic for binned/unbinned AsINFO: (function: runLimitExpected) AsymptoticLimits.cc: 436 -- Median for expected limits = 6.8125 (Sigma for expected limits = 3.47583)
+2_obsOnly: in 60 x-bins
+INFO: (function: generateAsimov) ToyMCSamplerOpt.cc:INFO: (function: runLimitExpected) AsymptoticLimits.cc: 436 -- Median for expected limits = 6.20312 (Sigma for expected limits = 3.16492)
+Generating asimov withINFO: (function: runLimitExpected) AsymptoticLimits.cc: 436 -- Median for expected limits = 6.34375 (Sigma for expected limits = 3.23667)
+inned/unbinned Asimov dataset generation
+INFO: (function: generateWithHisto) ToyMCSamplerOpt.cc: 220 -- Generating asimov with histogram for pdf pdf_binch4_obsOnly: in 60 x-bins
+INFO: (function: generateAsimov) ToyMCSamplerOpt.cc: 145 -- Using internal logic for binned/unbinned Asimov dataset generation
+INFO: (function: generateWithHisto) ToyMCSamplerOpt.cc: 220 -- Generating asimov with histogram for pdf pdf_binch5_obsOnly: in 60 x-bins
+INFO: (function: runLimitExpected) AsymptoticLimits.cc: 436 -- Median for expected limits = 4.84375 (Sigma for expected limits = 2.47135)
+ it should be at zero
+INFO: (function: runLimitExpected) AsymptoticLimits.cc: 436 -- Median for expected limits = 4.26562 (Sigma for expected limits = 2.17638)

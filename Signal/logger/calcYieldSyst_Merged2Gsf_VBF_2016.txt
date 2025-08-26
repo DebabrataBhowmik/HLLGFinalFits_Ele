@@ -1,0 +1,38 @@
+ --> Processing ( ggH, Merged2Gsf_VBF, 120, 2016 ) rate uncertainties
+ --> Processing ( VBF, Merged2Gsf_VBF, 120, 2016 ) rate uncertainties
+ --> Processing (  WH, Merged2Gsf_VBF, 120, 2016 ) rate uncertainties
+ --> Processing (  ZH, Merged2Gsf_VBF, 120, 2016 ) rate uncertainties
+ --> Processing ( ttH, Merged2Gsf_VBF, 120, 2016 ) rate uncertainties
+ --> Processing ( bbH, Merged2Gsf_VBF, 120, 2016 ) rate uncertainties
+ --> Processing ( ggH, Merged2Gsf_VBF, 125, 2016 ) rate uncertainties
+ --> Processing ( VBF, Merged2Gsf_VBF, 125, 2016 ) rate uncertainties
+ --> Processing (  WH, Merged2Gsf_VBF, 125, 2016 ) rate uncertainties
+ --> Processing (  ZH, Merged2Gsf_VBF, 125, 2016 ) rate uncertainties
+ --> Processing ( ttH, Merged2Gsf_VBF, 125, 2016 ) rate uncertainties
+ --> Processing ( bbH, Merged2Gsf_VBF, 125, 2016 ) rate uncertainties
+ --> Processing ( ggH, Merged2Gsf_VBF, 130, 2016 ) rate uncertainties
+ --> Processing ( VBF, Merged2Gsf_VBF, 130, 2016 ) rate uncertainties
+ --> Processing (  WH, Merged2Gsf_VBF, 130, 2016 ) rate uncertainties
+ --> Processing (  ZH, Merged2Gsf_VBF, 130, 2016 ) rate uncertainties
+ --> Processing ( ttH, Merged2Gsf_VBF, 130, 2016 ) rate uncertainties
+ --> Processing ( bbH, Merged2Gsf_VBF, 130, 2016 ) rate uncertainties
+   proc             cat mass  year         nominalDataName PhoNoR9Corr weight_EleID weight_HLT weight_L1Pre weight_PhoID weight_puwei       JER       JEC
+0   ggH  Merged2Gsf_VBF  120  2016  set_120_Merged2Gsf_VBF    0.000439     0.159198   0.022258      0.01036     0.015799     0.015183  0.034548  0.005583
+1   VBF  Merged2Gsf_VBF  120  2016  set_120_Merged2Gsf_VBF     0.00043     0.152961   0.020891     0.012667     0.015791     0.012718  0.003291  0.000316
+2    WH  Merged2Gsf_VBF  120  2016  set_120_Merged2Gsf_VBF    0.001367     0.159399   0.021473     0.006744     0.016282     0.020803  0.028461  0.008604
+3    ZH  Merged2Gsf_VBF  120  2016  set_120_Merged2Gsf_VBF    0.000016     0.155369   0.020727     0.013922     0.015498     0.006601  0.046006  0.007753
+4   ttH  Merged2Gsf_VBF  120  2016  set_120_Merged2Gsf_VBF    0.000355     0.155548   0.021791     0.010471     0.015553      0.00726  0.004984  0.000433
+5   bbH  Merged2Gsf_VBF  120  2016  set_120_Merged2Gsf_VBF    0.002151     0.139786   0.017271     0.013097     0.014428     0.041223   0.13733  0.037218
+6   ggH  Merged2Gsf_VBF  125  2016  set_125_Merged2Gsf_VBF    0.000656     0.155912   0.021341     0.011456     0.016122      0.00239  0.027919   0.00699
+7   VBF  Merged2Gsf_VBF  125  2016  set_125_Merged2Gsf_VBF    0.000386      0.15531   0.021141     0.013322      0.01529     0.012998  0.006226  0.001259
+8    WH  Merged2Gsf_VBF  125  2016  set_125_Merged2Gsf_VBF    0.000716     0.161708   0.022234     0.010496     0.015218     0.003372  0.053262   0.00461
+9    ZH  Merged2Gsf_VBF  125  2016  set_125_Merged2Gsf_VBF    0.002919     0.157874   0.021665     0.010495     0.018477     0.019836  0.035649  0.004114
+10  ttH  Merged2Gsf_VBF  125  2016  set_125_Merged2Gsf_VBF    0.000253     0.157326   0.021911     0.012699     0.015868     0.006442  0.008355  0.002338
+11  bbH  Merged2Gsf_VBF  125  2016  set_125_Merged2Gsf_VBF    0.000522     0.198212   0.023415     0.008894     0.011713     0.044014  0.020017  0.032374
+12  ggH  Merged2Gsf_VBF  130  2016  set_130_Merged2Gsf_VBF    0.000643     0.153609   0.020188     0.011675      0.01527     0.005192  0.016396  0.002705
+13  VBF  Merged2Gsf_VBF  130  2016  set_130_Merged2Gsf_VBF    0.000088      0.15604   0.021152     0.012138     0.015519       0.0068  0.002526   0.00118
+14   WH  Merged2Gsf_VBF  130  2016  set_130_Merged2Gsf_VBF    0.000066     0.161432   0.022681     0.009402     0.015889     0.000935  0.038918  0.003872
+15   ZH  Merged2Gsf_VBF  130  2016  set_130_Merged2Gsf_VBF    0.000025     0.162612   0.021973     0.010004     0.016586      0.00464  0.052763  0.002597
+16  ttH  Merged2Gsf_VBF  130  2016  set_130_Merged2Gsf_VBF    0.000044     0.157266   0.021473     0.011593     0.016462     0.011672    0.0118  0.003922
+17  bbH  Merged2Gsf_VBF  130  2016  set_130_Merged2Gsf_VBF    0.001734     0.160683   0.023411     0.012174     0.015745     0.007795  0.085792  0.022333
+ --> Successfully saved rate systematics as pkl file: /home/chenghan/HDalitzEle/misc/Limit/CMSSW_11_3_4/src/HLLGFinalFits/Signal/syst/rate_syst_Merged2Gsf_VBF_2016.pkl

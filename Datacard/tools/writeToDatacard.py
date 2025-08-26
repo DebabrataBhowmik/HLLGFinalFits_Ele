@@ -15,7 +15,7 @@ class DCWriter:
         self.space0 = 9
         self.space1 = 23
         self.space2 = 26
-        self.space3 = 136
+        self.space3 = 180
         self.space4 = 24
 
 
@@ -113,6 +113,8 @@ class DCWriter:
                 self.fout.write("{}\n".format(lsyst[:-1]))
             else:
                 for i, y in enumerate(self.years):
+                    if str(y) != "2017" and "IsoMu" in self.cat :
+                        continue
                     stitle = "{}_{}".format(s["name"], y)
                     lsyst = "{0:<25}{1:<{sp1}}".format(stitle, s["prior"], sp1=self.space1-(25-self.space0))
                     for ir, r in df_iter.iterrows():
@@ -133,7 +135,7 @@ class DCWriter:
                     continue
                 col_name = "{}_{}_{}_{}_{}".format(s["name"], r["procOriginal"], r["mass"], self.cat, r["year"])
                 # self.fout.write("{0:{sp0}}{1:<7}{2:<5}{3:<12}\n".format(col_name, "param", str(1), str(round(r[s["name"]], 7)), sp0=self.space0+self.space1+self.space2))
-                self.fout.write("{0:{sp0}}{1:<7}{2:<5}{3:<12}\n".format(col_name, "param", str(1), str(round(r[s["name"]], 7)), sp0=self.space0+self.space1+self.space2))
+                self.fout.write("{0:{sp0}}{1:<7}{2:<5}{3:<12}\n".format(col_name, "param", str(1), str(round(r[s["name"]], 5)), sp0=self.space0+self.space1+self.space2))
         # if s["prior"] == "param":
         #     for proc in self.df["procOriginal"].unique():
         #         if ((proc == "data_obs") or (proc == "bkg_mass")):

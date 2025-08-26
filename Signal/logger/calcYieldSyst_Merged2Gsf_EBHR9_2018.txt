@@ -1,0 +1,38 @@
+ --> Processing ( ggH, Merged2Gsf_EBHR9, 120, 2018 ) rate uncertainties
+ --> Processing ( VBF, Merged2Gsf_EBHR9, 120, 2018 ) rate uncertainties
+ --> Processing (  WH, Merged2Gsf_EBHR9, 120, 2018 ) rate uncertainties
+ --> Processing (  ZH, Merged2Gsf_EBHR9, 120, 2018 ) rate uncertainties
+ --> Processing ( ttH, Merged2Gsf_EBHR9, 120, 2018 ) rate uncertainties
+ --> Processing ( bbH, Merged2Gsf_EBHR9, 120, 2018 ) rate uncertainties
+ --> Processing ( ggH, Merged2Gsf_EBHR9, 125, 2018 ) rate uncertainties
+ --> Processing ( VBF, Merged2Gsf_EBHR9, 125, 2018 ) rate uncertainties
+ --> Processing (  WH, Merged2Gsf_EBHR9, 125, 2018 ) rate uncertainties
+ --> Processing (  ZH, Merged2Gsf_EBHR9, 125, 2018 ) rate uncertainties
+ --> Processing ( ttH, Merged2Gsf_EBHR9, 125, 2018 ) rate uncertainties
+ --> Processing ( bbH, Merged2Gsf_EBHR9, 125, 2018 ) rate uncertainties
+ --> Processing ( ggH, Merged2Gsf_EBHR9, 130, 2018 ) rate uncertainties
+ --> Processing ( VBF, Merged2Gsf_EBHR9, 130, 2018 ) rate uncertainties
+ --> Processing (  WH, Merged2Gsf_EBHR9, 130, 2018 ) rate uncertainties
+ --> Processing (  ZH, Merged2Gsf_EBHR9, 130, 2018 ) rate uncertainties
+ --> Processing ( ttH, Merged2Gsf_EBHR9, 130, 2018 ) rate uncertainties
+ --> Processing ( bbH, Merged2Gsf_EBHR9, 130, 2018 ) rate uncertainties
+   proc               cat mass  year           nominalDataName PhoNoR9Corr weight_EleID weight_HLT weight_L1Pre weight_PhoID weight_puwei       JER       JEC
+0   ggH  Merged2Gsf_EBHR9  120  2018  set_120_Merged2Gsf_EBHR9    0.014734     0.123688   0.016526          0.0     0.013788     0.009283  0.000272       0.0
+1   VBF  Merged2Gsf_EBHR9  120  2018  set_120_Merged2Gsf_EBHR9    0.015886     0.129916   0.018463          0.0     0.013368     0.012345  0.001494  0.000001
+2    WH  Merged2Gsf_EBHR9  120  2018  set_120_Merged2Gsf_EBHR9    0.014608     0.131114   0.018134          0.0     0.013354     0.010343  0.000093       0.0
+3    ZH  Merged2Gsf_EBHR9  120  2018  set_120_Merged2Gsf_EBHR9    0.018432     0.131428   0.018216          0.0     0.013376     0.007822  0.000318       0.0
+4   ttH  Merged2Gsf_EBHR9  120  2018  set_120_Merged2Gsf_EBHR9    0.016933     0.132564   0.019095          0.0     0.013193     0.005215  0.000539  0.000143
+5   bbH  Merged2Gsf_EBHR9  120  2018  set_120_Merged2Gsf_EBHR9    0.019314     0.124736   0.017168          0.0     0.013832      0.00729  0.000729       0.0
+6   ggH  Merged2Gsf_EBHR9  125  2018  set_125_Merged2Gsf_EBHR9    0.017262     0.129242   0.017249          0.0     0.014069      0.01059  0.000017       0.0
+7   VBF  Merged2Gsf_EBHR9  125  2018  set_125_Merged2Gsf_EBHR9    0.013868     0.133651   0.018608          0.0     0.013593     0.008359  0.000484   0.00009
+8    WH  Merged2Gsf_EBHR9  125  2018  set_125_Merged2Gsf_EBHR9    0.019305     0.132884   0.017897          0.0     0.013511     0.008071  0.000246       0.0
+9    ZH  Merged2Gsf_EBHR9  125  2018  set_125_Merged2Gsf_EBHR9    0.017205     0.134871   0.018467          0.0      0.01359     0.011662  0.000167       0.0
+10  ttH  Merged2Gsf_EBHR9  125  2018  set_125_Merged2Gsf_EBHR9    0.022127     0.134392   0.018987          0.0     0.013572     0.005191  0.000053       0.0
+11  bbH  Merged2Gsf_EBHR9  125  2018  set_125_Merged2Gsf_EBHR9    0.009943     0.129182   0.017336          0.0     0.014054     0.019201   0.00026  0.000023
+12  ggH  Merged2Gsf_EBHR9  130  2018  set_130_Merged2Gsf_EBHR9    0.017573     0.134775   0.017922          0.0     0.014228     0.011289  0.000129  0.000019
+13  VBF  Merged2Gsf_EBHR9  130  2018  set_130_Merged2Gsf_EBHR9    0.015717     0.135912   0.018793          0.0      0.01371     0.001017  0.000488  0.000081
+14   WH  Merged2Gsf_EBHR9  130  2018  set_130_Merged2Gsf_EBHR9    0.022716     0.137243   0.018885          0.0     0.013662     0.013442  0.000196       0.0
+15   ZH  Merged2Gsf_EBHR9  130  2018  set_130_Merged2Gsf_EBHR9     0.02049     0.137054   0.018711          0.0      0.01367     0.011421  0.000275       0.0
+16  ttH  Merged2Gsf_EBHR9  130  2018  set_130_Merged2Gsf_EBHR9    0.014886     0.136135   0.019118          0.0     0.013742     0.008131  0.000052       0.0
+17  bbH  Merged2Gsf_EBHR9  130  2018  set_130_Merged2Gsf_EBHR9    0.020541     0.131945   0.017106          0.0     0.014382     0.013789  0.000322  0.000164
+ --> Successfully saved rate systematics as pkl file: /home/chenghan/HDalitzEle/misc/Limit/CMSSW_11_3_4/src/HLLGFinalFits/Signal/syst/rate_syst_Merged2Gsf_EBHR9_2018.pkl

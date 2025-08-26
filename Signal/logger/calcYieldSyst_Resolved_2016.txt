@@ -1,0 +1,38 @@
+ --> Processing ( ggH, Resolved, 120, 2016 ) rate uncertainties
+ --> Processing ( VBF, Resolved, 120, 2016 ) rate uncertainties
+ --> Processing (  WH, Resolved, 120, 2016 ) rate uncertainties
+ --> Processing (  ZH, Resolved, 120, 2016 ) rate uncertainties
+ --> Processing ( ttH, Resolved, 120, 2016 ) rate uncertainties
+ --> Processing ( bbH, Resolved, 120, 2016 ) rate uncertainties
+ --> Processing ( ggH, Resolved, 125, 2016 ) rate uncertainties
+ --> Processing ( VBF, Resolved, 125, 2016 ) rate uncertainties
+ --> Processing (  WH, Resolved, 125, 2016 ) rate uncertainties
+ --> Processing (  ZH, Resolved, 125, 2016 ) rate uncertainties
+ --> Processing ( ttH, Resolved, 125, 2016 ) rate uncertainties
+ --> Processing ( bbH, Resolved, 125, 2016 ) rate uncertainties
+ --> Processing ( ggH, Resolved, 130, 2016 ) rate uncertainties
+ --> Processing ( VBF, Resolved, 130, 2016 ) rate uncertainties
+ --> Processing (  WH, Resolved, 130, 2016 ) rate uncertainties
+ --> Processing (  ZH, Resolved, 130, 2016 ) rate uncertainties
+ --> Processing ( ttH, Resolved, 130, 2016 ) rate uncertainties
+ --> Processing ( bbH, Resolved, 130, 2016 ) rate uncertainties
+   proc       cat mass  year   nominalDataName PhoNoR9Corr weight_EleID weight_HLT weight_L1Pre weight_PhoID weight_puwei  JER  JEC
+0   ggH  Resolved  120  2016  set_120_Resolved    0.000002     0.062387   0.008216     0.002862     0.006066      0.01753  0.0  0.0
+1   VBF  Resolved  120  2016  set_120_Resolved    0.000016     0.062772    0.00873     0.009048      0.00657       0.0166  0.0  0.0
+2    WH  Resolved  120  2016  set_120_Resolved    0.000005      0.06097   0.008697     0.004478     0.006471     0.011918  0.0  0.0
+3    ZH  Resolved  120  2016  set_120_Resolved    0.000004     0.061567   0.008867     0.004829     0.006628     0.015646  0.0  0.0
+4   ttH  Resolved  120  2016  set_120_Resolved    0.000003     0.060975   0.008691     0.005428     0.006797     0.009236  0.0  0.0
+5   bbH  Resolved  120  2016  set_120_Resolved    0.000038      0.06236   0.008128     0.001527     0.005692     0.012657  0.0  0.0
+6   ggH  Resolved  125  2016  set_125_Resolved    0.000001     0.061817   0.008279     0.003128     0.006361     0.013877  0.0  0.0
+7   VBF  Resolved  125  2016  set_125_Resolved    0.000008     0.061054   0.008763     0.008538     0.007021     0.012208  0.0  0.0
+8    WH  Resolved  125  2016  set_125_Resolved    0.000005     0.061981   0.008731     0.004823     0.006923     0.019776  0.0  0.0
+9    ZH  Resolved  125  2016  set_125_Resolved    0.000009     0.061094   0.008976     0.004678      0.00688     0.011864  0.0  0.0
+10  ttH  Resolved  125  2016  set_125_Resolved    0.000007     0.060025   0.008844     0.006412     0.007078      0.01723  0.0  0.0
+11  bbH  Resolved  125  2016  set_125_Resolved    0.000003     0.062226   0.008077     0.002291     0.006414     0.017618  0.0  0.0
+12  ggH  Resolved  130  2016  set_130_Resolved    0.000009     0.061763    0.00822      0.00286     0.006679     0.014282  0.0  0.0
+13  VBF  Resolved  130  2016  set_130_Resolved         0.0     0.061016   0.008902     0.008189     0.007069     0.010412  0.0  0.0
+14   WH  Resolved  130  2016  set_130_Resolved    0.000011     0.061262   0.008938     0.005077     0.007071     0.015885  0.0  0.0
+15   ZH  Resolved  130  2016  set_130_Resolved    0.000002     0.061293   0.009067     0.004908     0.007068      0.00686  0.0  0.0
+16  ttH  Resolved  130  2016  set_130_Resolved    0.000012     0.059962   0.008865     0.006635      0.00725     0.012671  0.0  0.0
+17  bbH  Resolved  130  2016  set_130_Resolved    0.000004     0.062768   0.008022     0.002682     0.006322     0.002033  0.0  0.0
+ --> Successfully saved rate systematics as pkl file: /home/chenghan/HDalitzEle/misc/Limit/CMSSW_11_3_4/src/HLLGFinalFits/Signal/syst/rate_syst_Resolved_2016.pkl

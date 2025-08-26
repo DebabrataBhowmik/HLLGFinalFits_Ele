@@ -33,15 +33,18 @@ yearsStr = [
 eras = ["UL2016preVFP", "UL2016postVFP", "UL2017", "UL2018"]
 
 # Constants
-BR_W_lnu = 3.*10.86*0.01
-BR_Z_ll = 3*3.3658*0.01
-BR_Z_nunu = 20.00*0.01
-BR_Z_qq = 69.91*0.01
-BR_W_qq = 67.41*0.01
+# BR_W_lnu = 3.*10.86*0.01
+# BR_Z_ll = 3*3.3658*0.01
+# BR_Z_nunu = 20.00*0.01
+# BR_Z_qq = 69.91*0.01
+# BR_W_qq = 67.41*0.01
 
 # Production modes and decay channel: for extract XS from combine
 productionModes = ["ggH", "VBF", "WH", "ZH", "ttH", "bbH"]
 decayMode = "heeg"
+massText = "m_{ee#gamma} (GeV)"
+decayText = "H #rightarrow #gamma* #gamma #rightarrow ee#gamma"
+
 
 # flashgg input WS objects
 inputWSName__ = "tagsDumper/cms_heeg_13TeV"
@@ -51,39 +54,35 @@ outputWSName__ = "wsig"
 outputWSObjectTitle__ = "heegpdfsmrel"
 outputWSNuisanceTitle__ = "CMS_heeg_nuisance"
 # outputNuisanceExtMap = {"scales":"%sscale"%sqrts__, "scalesCorr":"%sscaleCorr"%sqrts__, "smears":"%ssmear"%sqrts__, "scalesGlobal":"%sscale"%sqrts__}
-outputNuisanceExtMap = {"phoScales":"%sphoScale"%sqrts__, "phoSmears":"%sphoSmear"%sqrts__, "eleScales":"%seleScale"%sqrts__, "eleSmears":"%seleSmear"%sqrts__}
+# outputNuisanceExtMap = {"phoScales":"%sphoScale"%sqrts__, "phoSmears":"%sphoSmear"%sqrts__, "eleScales":"%seleScale"%sqrts__, "eleSmears":"%seleSmear"%sqrts__}
 
 # Bkg output WS objects
 bkgWSName__ = "multipdf"
 
 # Analysis categories
 category__ = od()
-category__["Merged2Gsf_HVBF"]   = "category == 1"
-category__["Merged2Gsf_LVBF"]   = "category == 2"
-category__["Merged2Gsf_BST"]    = "category == 3"
-category__["Merged2Gsf_EBHR9"]  = "category == 4"
-category__["Merged2Gsf_EBLR9"]  = "category == 5"
-category__["Merged2Gsf_EE"]     = "category == 6"
-category__["Merged1Gsf_HVBF"]   = "category == 7"
-category__["Merged1Gsf_LVBF"]   = "category == 8"
-category__["Merged1Gsf_BST"]    = "category == 9"
-category__["Merged1Gsf_EBHR9"]  = "category == 10"
-category__["Merged1Gsf_EBLR9"]  = "category == 11"
-category__["Merged1Gsf_EE"]     = "category == 12"
-category__["Resolved"]          = "category == 13"
+# category__["Merged2Gsf_LooseEBHR9"]  = "category == 1"
+# category__["Merged2Gsf_LooseEBLR9"]  = "category == 2"
+# category__["Merged2Gsf_LooseEE"]     = "category == 3"
+category__["Merged2Gsf_VBF"]         = "category == 1"
+category__["Merged2Gsf_BST"]         = "category == 2"
+category__["Merged2Gsf_EBHR9"]       = "category == 3"
+category__["Merged2Gsf_EBLR9"]       = "category == 4"
+category__["Merged2Gsf_EE"]          = "category == 5"
+category__["Resolved"]               = "category == 6"
+# category__["Resolved_EBLR9"]    = "category == 7"
+# category__["Resolved_EE"]       = "category == 8"
 
 categoryTag = od()
 categoryTag["M2Untag"] = ["Merged2Gsf_EBHR9", "Merged2Gsf_EBLR9", "Merged2Gsf_EE"]
-categoryTag["M1Untag"] = ["Merged1Gsf_EBHR9", "Merged1Gsf_EBLR9", "Merged1Gsf_EE"]
-categoryTag["M2tag"]   = ["Merged2Gsf_HVBF", "Merged2Gsf_LVBF", "Merged2Gsf_BST"]
-categoryTag["M1tag"]   = ["Merged1Gsf_HVBF", "Merged1Gsf_LVBF", "Merged1Gsf_BST"]
+categoryTag["M2tag"]   = ["Merged2Gsf_VBF", "Merged2Gsf_BST"]
 
 # function to converte process to production mode in dataset name
 procToDatacardNameMap = od()
 procToDatacardNameMap["ggH"] = "ggH"
 procToDatacardNameMap["VBF"] = "qqH"
-procToDatacardNameMap["WH"] = "WH"
-procToDatacardNameMap["ZH"] = "ZH"
+procToDatacardNameMap["WH"]  = "WH"
+procToDatacardNameMap["ZH"]  = "ZH"
 procToDatacardNameMap["ttH"] = "ttH"
 procToDatacardNameMap["bbH"] = "bbH"
 def procToDatacardName(_proc):

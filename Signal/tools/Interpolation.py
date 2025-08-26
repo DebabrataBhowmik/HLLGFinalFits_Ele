@@ -2,8 +2,8 @@ import sys, os
 import ROOT
 import numpy as np
 from CMS_lumi import CMS_lumi
-from commonObjects import decayMode
-from commonTools import rooiter
+from commonObjects import decayMode, massText, decayText
+from commonTools import rooiter, cprint
 from collections import OrderedDict as od
 
 class Interpolator:
@@ -12,9 +12,6 @@ class Interpolator:
         self.MHHigh     = _MHHigh   # upper bound of mass point
         self.yields     = _yields   # dict contains yields @ 120, 125 and 130 GeV
         self.fitres     = _fitres   # dict contains fit results @ 120, 125 and 130 GeV
-        if self.yields.keys().sort() != self.fitres.keys().sort():
-            print("Error: yields and fit results do not have the same mass points as keys!")
-            sys.exit(1)
 
         self.year       = _year     # year
         self.proc       = _proc     # production modes
@@ -23,7 +20,7 @@ class Interpolator:
 
         # intermediate mass points
         # set num = 11 to have 1 GeV a step: 120, 121, 122 ... 130
-        self.xmass      = self.fitres.keys() # 3 mass points (should be 120, 125, 130)
+        self.xmass      = list(self.fitres.keys()) # 3 mass points (should be 120, 125, 130)
         self.xmass_intp = np.linspace(self.xmass[0], self.xmass[-1], 11, endpoint=True).astype(int)
 
         # Dicts to store all fit parameters, pdfs
@@ -45,7 +42,7 @@ class Interpolator:
     def calcPolation(self):
         # extract the parameter from the first fit result
         pars = [i.GetName() for i in rooiter(self.fitres[self.xmass[0]].floatParsFinal())]
-
+        
         # fill the par values in the fit results into dict
         par_dict = od([(p, [1.]*len(self.xmass)) for p in pars])
         parErr_dict = od([(p, [0.]*len(self.xmass)) for p in pars])
@@ -58,7 +55,7 @@ class Interpolator:
         parErr_dict_intp = od([(p, [0.]*len(self.xmass_intp)) for p in pars])
 
         # interpolation: https://numpy.org/doc/stable/reference/generated/numpy.interp.html
-        self.norms = np.interp(self.xmass_intp, self.xmass, self.yields.values())
+        self.norms = np.interp(self.xmass_intp, self.xmass, list(self.yields.values()))
         for p in pars:
             par_dict_intp[p] = np.interp(self.xmass_intp, self.xmass, par_dict[p])
             parErr_dict_intp[p] = np.interp(self.xmass_intp, self.xmass, parErr_dict[p])
@@ -75,15 +72,21 @@ class Interpolator:
         for imass, mass in enumerate(self.xmass_intp):
             Vars = od()
             for p in self.Pars.keys():
-                Vars[p] = ROOT.RooRealVar(p, p, self.Pars[p][imass])
+                #! NOTE: The var name should be unique for each category.
+                var_name = "{}_{}_{}_{}_{}".format(p, self.proc, mass, self.cat, self.year)
+                Vars[p] = ROOT.RooRealVar(var_name, var_name, self.Pars[p][imass])
                 Vars[p].setError(self.ParsErr[p][imass])
             if self.useDCB:
-                dcbPdf = ROOT.RooDoubleCB("SigPdf", "SigPdf", self.xvar, Vars["mean_dcb"], Vars["sigma_dcb"], Vars["a1_dcb"], Vars["n1_dcb"], Vars["a2_dcb"], Vars["n2_dcb"])
+                SigPdf_name = "SigPdf_{}_{}_{}_{}".format(self.proc, mass, self.cat, self.year)
+                dcbPdf = ROOT.RooDoubleCB(SigPdf_name, SigPdf_name, self.xvar, Vars["mean_dcb"], Vars["sigma_dcb"], Vars["a1_dcb"], Vars["n1_dcb"], Vars["a2_dcb"], Vars["n2_dcb"])
                 self.FinalPdfs[mass] = dcbPdf
             else:
-                dcbPdf = ROOT.RooDoubleCB("DCB", "DCB", self.xvar, Vars["mean_dcb"], Vars["sigma_dcb"], Vars["a1_dcb"], Vars["n1_dcb"], Vars["a2_dcb"], Vars["n2_dcb"])
-                gauPdf = ROOT.RooGaussian("Gaus", "Gaus", self.xvar, Vars["mean_dcb"], Vars["sigma_gaus"])
-                self.FinalPdfs[mass] = ROOT.RooAddPdf("SigPdf", "SigPdf", dcbPdf, gauPdf, Vars["frac_dcb"])
+                dcbPdf_name = "DCB_{}_{}_{}_{}".format(self.proc, mass, self.cat, self.year)
+                gauPdf_name = "Gaus_{}_{}_{}_{}".format(self.proc, mass, self.cat, self.year)
+                SigPdf_name = "SigPdf_{}_{}_{}_{}".format(self.proc, mass, self.cat, self.year)
+                dcbPdf = ROOT.RooDoubleCB(dcbPdf_name, dcbPdf_name, self.xvar, Vars["mean_dcb"], Vars["sigma_dcb"], Vars["a1_dcb"], Vars["n1_dcb"], Vars["a2_dcb"], Vars["n2_dcb"])
+                gauPdf = ROOT.RooGaussian(gauPdf_name, gauPdf_name, self.xvar, Vars["mean_dcb"], Vars["sigma_gaus"])
+                self.FinalPdfs[mass] = ROOT.RooAddPdf(SigPdf_name, SigPdf_name, dcbPdf, gauPdf, Vars["frac_dcb"])
 
             if (mass != 120) and (mass != 125) and (mass != 130):
                 self.FinalPdfs[mass].plotOn(
@@ -119,7 +122,7 @@ class Interpolator:
                 if not os.path.exists(outWSDir):
                     os.system("mkdir -p %s" %outWSDir)
                 outWSName = "{}/CMS_HLLG_Interp_{}_{}_{}_{}.root".format(outWSDir, mass, self.proc, self.year, self.cat)
-                print("INFO: Save the final signal model in {}".format(outWSName))
+                cprint("INFO: Save the final signal model in {}".format(outWSName))
                 fws = ROOT.TFile(outWSName, "RECREATE")
                 fws.cd()
 
@@ -129,14 +132,14 @@ class Interpolator:
 
                 # create the workspace to save
                 ws = ROOT.RooWorkspace(outWS)
-                ws.imp = getattr(ws, "import")
-                ws.imp(self.FinalPdfs[mass])
-                ws.imp(ExpYield)
+                ws.Import(self.FinalPdfs[mass])
+                ws.Import(ExpYield)
 
                 # define params set
                 aset = ROOT.RooArgSet()
                 for p in self.Pars.keys():
-                    aset.add(ws.var(p))
+                    aset.add(ws.var(Vars[p].GetName()))
+
                 ws.defineSet("SigPdfParams", aset)
                 for _var in rooiter(ws.set("SigPdfParams")):
                     _var.setConstant(True)
@@ -152,11 +155,21 @@ class Interpolator:
                     # create RooFormulaVars
                     # * new_mean_dcb = mean_dcb * scale_var
                     # * new_sigma_dcb = sigma_dcb * resol_var
-                    ws.factory("prod::new_mean_dcb(mean_dcb, {})".format(scale_var))
-                    ws.factory("prod::new_sigma_dcb(sigma_dcb, {})".format(resol_var))
+                    mean_dcb_name = "mean_dcb_{}_{}_{}_{}".format(self.proc, mass, self.cat, self.year)
+                    new_mean_dcb_name = "new_mean_dcb_{}_{}_{}_{}".format(self.proc, mass, self.cat, self.year)
+                    
+                    sigma_dcb_name = "sigma_dcb_{}_{}_{}_{}".format(self.proc, mass, self.cat, self.year)
+                    new_sigma_dcb_name = "new_sigma_dcb_{}_{}_{}_{}".format(self.proc, mass, self.cat, self.year)
+                    
+                    ws.factory("prod::{}({}, {})".format(new_mean_dcb_name, mean_dcb_name, scale_var))
+                    ws.factory("prod::{}({}, {})".format(new_sigma_dcb_name, sigma_dcb_name, resol_var))
 
                     # modify the final models
-                    ws.factory("EDIT:NewSigPdf(SigPdf, mean_dcb = new_mean_dcb, sigma_dcb = new_sigma_dcb)")
+                    
+                    SigPdf_name = "SigPdf_{}_{}_{}_{}".format(self.proc, mass, self.cat, self.year)
+                    NewSigPdf_name = "NewSigPdf_{}_{}_{}_{}".format(self.proc, mass, self.cat, self.year)
+                    # ws.factory("EDIT:NewSigPdf(SigPdf, mean_dcb=new_mean_dcb, sigma_dcb=new_sigma_dcb)")
+                    ws.factory(f"EDIT:{NewSigPdf_name}({SigPdf_name}, {mean_dcb_name}={new_mean_dcb_name}, {sigma_dcb_name}={new_sigma_dcb_name})")
 
                 ws.Write()
                 fws.Close()
@@ -164,7 +177,7 @@ class Interpolator:
     # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     # xName: x-axis label
     # outName: path to save the plot
-    def visualize(self, xName, outName):
+    def visualize(self, outName):
         # set up the canvas to draw
         # self.xframe.SetAxisRange(xRange[0], xRange[1], "X")
         self.xframe.SetTitle("")
@@ -174,7 +187,7 @@ class Interpolator:
         self.xframe.GetXaxis().SetLabelSize(0.04)
         self.xframe.GetXaxis().SetLabelOffset(0.02)
         self.xframe.GetXaxis().SetTitleOffset(1.4)
-        self.xframe.GetXaxis().SetTitle(xName)
+        self.xframe.GetXaxis().SetTitle(massText)
 
         self.xframe.GetYaxis().SetTitle("Signal shape")
         self.xframe.GetYaxis().SetNdivisions(510)
@@ -211,7 +224,7 @@ class Interpolator:
         leg1.AddEntry(self.xframe.findObject("130"), "PDF-130 GeV ", "l")
         leg1.Draw()
 
-        CMS_lumi(c, 4, 11, "", self.year, True, "Simulation", "H #rightarrow #gamma*#gamma #rightarrow ee#gamma", "")
+        CMS_lumi(c, 5, 10, "", self.year, True, "Simulation", decayText, "")
 
         # create the output dir
         outDir = os.path.dirname(outName)

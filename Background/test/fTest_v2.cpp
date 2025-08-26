@@ -69,7 +69,7 @@ int nBinsForMass = 60;
 int _ntoys = 2000;
 
 // plot setting
-string massName = "M_{ee#gamma} [GeV]"; // use to plot the x title
+string massName = "m_{ee#gamma} (GeV)"; // use to plot the x title
 TString extraText_ = "Preliminary";
 TString lumitext_ = "138 fb^{-1}";
 TString procText_ = "H #rightarrow #gamma*#gamma #rightarrow ee#gamma";
@@ -591,6 +591,7 @@ void plot_best(RooRealVar* mass, RooMultiPdf* pdfs, RooCategory* catIndex, RooDa
     if (BLIND)
         plot->SetMinimum(0.0001);
     plot->SetMaximum(plot->GetMaximum() * 1.7);
+    // plot->SetMaximum(1550);
     plot->Draw();
     leg->Draw("same");
 
@@ -940,7 +941,11 @@ int main(int argc, char** argv){
         string catindexname = Form("pdfindex_%s_%s", catname.c_str(), ext.c_str());
         RooCategory catIndex(catindexname.c_str(), "c");
         RooMultiPdf *pdf = new RooMultiPdf(Form("CMS_higgs_%s_%s_bkgshape", catname.c_str(), ext.c_str()), "all pdfs", catIndex, storedPdfs);
-        RooRealVar nBackground(Form("CMS_higgs_%s_%s_bkgshape_norm", catname.c_str(), ext.c_str()), "nbkg", data->sumEntries(), 0, 3 * data->sumEntries());
+        
+        // RooDataSet* tmp = (RooDataSet*) data->reduce(Form("(CMS_higgs_mass > %d && CMS_higgs_mass < %d) || (CMS_higgs_mass > %d && CMS_higgs_mass < %d)", mllg_low, blind_low, blind_high, mllg_high));
+        // float nbkg = (BLIND) ? tmp->sumEntries() : data->sumEntries();
+        float nbkg = data->sumEntries();
+        RooRealVar nBackground(Form("CMS_higgs_%s_%s_bkgshape_norm", catname.c_str(), ext.c_str()), "nbkg", nbkg, 0, 3 * nbkg);
 
         //double check the best pdf!
         int bestFitPdfIndex = getBestFitFunction(pdf, data, &catIndex, !verbose);

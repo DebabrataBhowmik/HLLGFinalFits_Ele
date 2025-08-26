@@ -1,0 +1,76 @@
+ --> Processing ( ggH, Merged2Gsf_EBHR9, 120, 2016 ) scale uncertainties
+ --> Processing ( VBF, Merged2Gsf_EBHR9, 120, 2016 ) scale uncertainties
+ --> Processing (  WH, Merged2Gsf_EBHR9, 120, 2016 ) scale uncertainties
+ --> Processing (  ZH, Merged2Gsf_EBHR9, 120, 2016 ) scale uncertainties
+ --> Processing ( ttH, Merged2Gsf_EBHR9, 120, 2016 ) scale uncertainties
+ --> Processing ( bbH, Merged2Gsf_EBHR9, 120, 2016 ) scale uncertainties
+ --> Processing ( ggH, Merged2Gsf_EBHR9, 120, 2016 ) resol uncertainties
+ --> Processing ( VBF, Merged2Gsf_EBHR9, 120, 2016 ) resol uncertainties
+ --> Processing (  WH, Merged2Gsf_EBHR9, 120, 2016 ) resol uncertainties
+ --> Processing (  ZH, Merged2Gsf_EBHR9, 120, 2016 ) resol uncertainties
+ --> Processing ( ttH, Merged2Gsf_EBHR9, 120, 2016 ) resol uncertainties
+ --> Processing ( bbH, Merged2Gsf_EBHR9, 120, 2016 ) resol uncertainties
+ --> Processing ( ggH, Merged2Gsf_EBHR9, 125, 2016 ) scale uncertainties
+ --> Processing ( VBF, Merged2Gsf_EBHR9, 125, 2016 ) scale uncertainties
+ --> Processing (  WH, Merged2Gsf_EBHR9, 125, 2016 ) scale uncertainties
+ --> Processing (  ZH, Merged2Gsf_EBHR9, 125, 2016 ) scale uncertainties
+ --> Processing ( ttH, Merged2Gsf_EBHR9, 125, 2016 ) scale uncertainties
+ --> Processing ( bbH, Merged2Gsf_EBHR9, 125, 2016 ) scale uncertainties
+ --> Processing ( ggH, Merged2Gsf_EBHR9, 125, 2016 ) resol uncertainties
+ --> Processing ( VBF, Merged2Gsf_EBHR9, 125, 2016 ) resol uncertainties
+ --> Processing (  WH, Merged2Gsf_EBHR9, 125, 2016 ) resol uncertainties
+ --> Processing (  ZH, Merged2Gsf_EBHR9, 125, 2016 ) resol uncertainties
+ --> Processing ( ttH, Merged2Gsf_EBHR9, 125, 2016 ) resol uncertainties
+ --> Processing ( bbH, Merged2Gsf_EBHR9, 125, 2016 ) resol uncertainties
+ --> Processing ( ggH, Merged2Gsf_EBHR9, 130, 2016 ) scale uncertainties
+ --> Processing ( VBF, Merged2Gsf_EBHR9, 130, 2016 ) scale uncertainties
+ --> Processing (  WH, Merged2Gsf_EBHR9, 130, 2016 ) scale uncertainties
+ --> Processing (  ZH, Merged2Gsf_EBHR9, 130, 2016 ) scale uncertainties
+ --> Processing ( ttH, Merged2Gsf_EBHR9, 130, 2016 ) scale uncertainties
+ --> Processing ( bbH, Merged2Gsf_EBHR9, 130, 2016 ) scale uncertainties
+ --> Processing ( ggH, Merged2Gsf_EBHR9, 130, 2016 ) resol uncertainties
+ --> Processing ( VBF, Merged2Gsf_EBHR9, 130, 2016 ) resol uncertainties
+ --> Processing (  WH, Merged2Gsf_EBHR9, 130, 2016 ) resol uncertainties
+ --> Processing (  ZH, Merged2Gsf_EBHR9, 130, 2016 ) resol uncertainties
+ --> Processing ( ttH, Merged2Gsf_EBHR9, 130, 2016 ) resol uncertainties
+ --> Processing ( bbH, Merged2Gsf_EBHR9, 130, 2016 ) resol uncertainties
+   proc               cat mass  year           nominalDataName PhoScaleStat PhoScaleSyst PhoScaleGain EleHDALScale EleTotalScale  PhoTotalScale  TotalScale
+0   ggH  Merged2Gsf_EBHR9  120  2016  set_120_Merged2Gsf_EBHR9     0.000268     0.000021     0.000021     0.006641      0.006641       0.000269    0.006646
+1   VBF  Merged2Gsf_EBHR9  120  2016  set_120_Merged2Gsf_EBHR9     0.000242     0.000023     0.000023     0.006598      0.006598       0.000245    0.006602
+2    WH  Merged2Gsf_EBHR9  120  2016  set_120_Merged2Gsf_EBHR9     0.000237     0.000029     0.000029     0.006513      0.006513       0.000240    0.006517
+3    ZH  Merged2Gsf_EBHR9  120  2016  set_120_Merged2Gsf_EBHR9     0.000219     0.000058     0.000058     0.006567      0.006567       0.000234    0.006571
+4   ttH  Merged2Gsf_EBHR9  120  2016  set_120_Merged2Gsf_EBHR9     0.000227     0.000041     0.000041     0.006508      0.006508       0.000235    0.006512
+5   bbH  Merged2Gsf_EBHR9  120  2016  set_120_Merged2Gsf_EBHR9     0.000267     0.000035     0.000035     0.006916      0.006916       0.000271    0.006921
+6   ggH  Merged2Gsf_EBHR9  125  2016  set_125_Merged2Gsf_EBHR9     0.000252     0.000038     0.000038     0.006736      0.006736       0.000257    0.006741
+7   VBF  Merged2Gsf_EBHR9  125  2016  set_125_Merged2Gsf_EBHR9     0.000237     0.000152     0.000152      0.00676       0.00676       0.000320    0.006767
+8    WH  Merged2Gsf_EBHR9  125  2016  set_125_Merged2Gsf_EBHR9     0.000254     0.000011     0.000011     0.006542      0.006542       0.000254    0.006547
+9    ZH  Merged2Gsf_EBHR9  125  2016  set_125_Merged2Gsf_EBHR9     0.000266      0.00003      0.00003     0.006608      0.006608       0.000270    0.006614
+10  ttH  Merged2Gsf_EBHR9  125  2016  set_125_Merged2Gsf_EBHR9     0.000292     0.000114     0.000114     0.006652      0.006652       0.000333    0.006661
+11  bbH  Merged2Gsf_EBHR9  125  2016  set_125_Merged2Gsf_EBHR9     0.000266     0.000004     0.000004     0.006619      0.006619       0.000266    0.006625
+12  ggH  Merged2Gsf_EBHR9  130  2016  set_130_Merged2Gsf_EBHR9     0.000265     0.000022     0.000022     0.006788      0.006788       0.000267    0.006793
+13  VBF  Merged2Gsf_EBHR9  130  2016  set_130_Merged2Gsf_EBHR9     0.000293     0.000068     0.000068     0.006779      0.006779       0.000308    0.006786
+14   WH  Merged2Gsf_EBHR9  130  2016  set_130_Merged2Gsf_EBHR9     0.000222     0.000015     0.000015     0.006606      0.006606       0.000223    0.006610
+15   ZH  Merged2Gsf_EBHR9  130  2016  set_130_Merged2Gsf_EBHR9     0.000205     0.000033     0.000033     0.006676      0.006676       0.000210    0.006680
+16  ttH  Merged2Gsf_EBHR9  130  2016  set_130_Merged2Gsf_EBHR9     0.000206      0.00004      0.00004     0.006623      0.006623       0.000214    0.006626
+17  bbH  Merged2Gsf_EBHR9  130  2016  set_130_Merged2Gsf_EBHR9      0.00024     0.000048     0.000048     0.007018      0.007018       0.000249    0.007023
+   proc               cat mass  year           nominalDataName PhoSigmaPhi PhoSigmaRho EleHDALSmear EleTotalResol  PhoTotalResol  TotalResol
+0   ggH  Merged2Gsf_EBHR9  120  2016  set_120_Merged2Gsf_EBHR9    0.001978     0.00019     0.309294      0.309294       0.001987    0.309301
+1   VBF  Merged2Gsf_EBHR9  120  2016  set_120_Merged2Gsf_EBHR9    0.002228     0.00002     0.317613      0.317613       0.002228    0.317621
+2    WH  Merged2Gsf_EBHR9  120  2016  set_120_Merged2Gsf_EBHR9    0.001549    0.000251     0.281425      0.281425       0.001569    0.281429
+3    ZH  Merged2Gsf_EBHR9  120  2016  set_120_Merged2Gsf_EBHR9    0.002124    0.000195     0.274722      0.274722       0.002133    0.274731
+4   ttH  Merged2Gsf_EBHR9  120  2016  set_120_Merged2Gsf_EBHR9    0.000304    0.000194     0.310648      0.310648       0.000361    0.310648
+5   bbH  Merged2Gsf_EBHR9  120  2016  set_120_Merged2Gsf_EBHR9    0.004508     0.00028      0.14739       0.14739       0.004517    0.147459
+6   ggH  Merged2Gsf_EBHR9  125  2016  set_125_Merged2Gsf_EBHR9    0.003549    0.000099     0.319713      0.319713       0.003551    0.319733
+7   VBF  Merged2Gsf_EBHR9  125  2016  set_125_Merged2Gsf_EBHR9    0.001556    0.000132     0.309327      0.309327       0.001562    0.309331
+8    WH  Merged2Gsf_EBHR9  125  2016  set_125_Merged2Gsf_EBHR9    0.003243    0.000146     0.107545      0.107545       0.003246    0.107594
+9    ZH  Merged2Gsf_EBHR9  125  2016  set_125_Merged2Gsf_EBHR9    0.002441    0.000116     0.311415      0.311415       0.002444    0.311425
+10  ttH  Merged2Gsf_EBHR9  125  2016  set_125_Merged2Gsf_EBHR9    0.001503    0.000638     0.499984      0.499984       0.001633    0.499986
+11  bbH  Merged2Gsf_EBHR9  125  2016  set_125_Merged2Gsf_EBHR9    0.002185    0.000082      0.35257       0.35257       0.002186    0.352577
+12  ggH  Merged2Gsf_EBHR9  130  2016  set_130_Merged2Gsf_EBHR9    0.001565    0.000094     0.241786      0.241786       0.001568    0.241791
+13  VBF  Merged2Gsf_EBHR9  130  2016  set_130_Merged2Gsf_EBHR9    0.001221    0.000203     0.175964      0.175964       0.001238    0.175968
+14   WH  Merged2Gsf_EBHR9  130  2016  set_130_Merged2Gsf_EBHR9    0.002551     0.00044     0.379699      0.379699       0.002589    0.379707
+15   ZH  Merged2Gsf_EBHR9  130  2016  set_130_Merged2Gsf_EBHR9    0.001233    0.000164      0.34055       0.34055       0.001244    0.340552
+16  ttH  Merged2Gsf_EBHR9  130  2016  set_130_Merged2Gsf_EBHR9    0.001152    0.000122     0.363338      0.363338       0.001159    0.363340
+17  bbH  Merged2Gsf_EBHR9  130  2016  set_130_Merged2Gsf_EBHR9    0.001216    0.000144     0.483262      0.483262       0.001224    0.483263
+ --> Successfully saved scale systematics as pkl file: /home/chenghan/HDalitzEle/misc/Limit/CMSSW_11_3_4/src/HLLGFinalFits/Signal/syst/shape_syst_scale_Merged2Gsf_EBHR9_2016.pkl
+ --> Successfully saved resol systematics as pkl file: /home/chenghan/HDalitzEle/misc/Limit/CMSSW_11_3_4/src/HLLGFinalFits/Signal/syst/shape_syst_resol_Merged2Gsf_EBHR9_2016.pkl

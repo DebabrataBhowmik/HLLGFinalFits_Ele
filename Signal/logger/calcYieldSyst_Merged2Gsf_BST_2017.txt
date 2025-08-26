@@ -1,0 +1,38 @@
+ --> Processing ( ggH, Merged2Gsf_BST, 120, 2017 ) rate uncertainties
+ --> Processing ( VBF, Merged2Gsf_BST, 120, 2017 ) rate uncertainties
+ --> Processing (  WH, Merged2Gsf_BST, 120, 2017 ) rate uncertainties
+ --> Processing (  ZH, Merged2Gsf_BST, 120, 2017 ) rate uncertainties
+ --> Processing ( ttH, Merged2Gsf_BST, 120, 2017 ) rate uncertainties
+ --> Processing ( bbH, Merged2Gsf_BST, 120, 2017 ) rate uncertainties
+ --> Processing ( ggH, Merged2Gsf_BST, 125, 2017 ) rate uncertainties
+ --> Processing ( VBF, Merged2Gsf_BST, 125, 2017 ) rate uncertainties
+ --> Processing (  WH, Merged2Gsf_BST, 125, 2017 ) rate uncertainties
+ --> Processing (  ZH, Merged2Gsf_BST, 125, 2017 ) rate uncertainties
+ --> Processing ( ttH, Merged2Gsf_BST, 125, 2017 ) rate uncertainties
+ --> Processing ( bbH, Merged2Gsf_BST, 125, 2017 ) rate uncertainties
+ --> Processing ( ggH, Merged2Gsf_BST, 130, 2017 ) rate uncertainties
+ --> Processing ( VBF, Merged2Gsf_BST, 130, 2017 ) rate uncertainties
+ --> Processing (  WH, Merged2Gsf_BST, 130, 2017 ) rate uncertainties
+ --> Processing (  ZH, Merged2Gsf_BST, 130, 2017 ) rate uncertainties
+ --> Processing ( ttH, Merged2Gsf_BST, 130, 2017 ) rate uncertainties
+ --> Processing ( bbH, Merged2Gsf_BST, 130, 2017 ) rate uncertainties
+   proc             cat mass  year         nominalDataName PhoNoR9Corr weight_EleID weight_HLT weight_L1Pre weight_PhoID weight_puwei       JER       JEC
+0   ggH  Merged2Gsf_BST  120  2017  set_120_Merged2Gsf_BST    0.000715     0.153131   0.032355     0.007957     0.018108     0.009058  0.003641  0.000153
+1   VBF  Merged2Gsf_BST  120  2017  set_120_Merged2Gsf_BST    0.000797     0.152993   0.032731     0.011589     0.018356     0.009914  0.001544  0.000236
+2    WH  Merged2Gsf_BST  120  2017  set_120_Merged2Gsf_BST    0.000816     0.154856   0.031912     0.008409     0.018618     0.008998  0.002643  0.000124
+3    ZH  Merged2Gsf_BST  120  2017  set_120_Merged2Gsf_BST    0.000528      0.15449   0.032332     0.007805     0.018407     0.006732  0.001342  0.000044
+4   ttH  Merged2Gsf_BST  120  2017  set_120_Merged2Gsf_BST    0.000649     0.154271   0.034456     0.007501     0.018849     0.005014  0.002056  0.000086
+5   bbH  Merged2Gsf_BST  120  2017  set_120_Merged2Gsf_BST    0.001113     0.148638   0.033171     0.007411     0.017543     0.014055  0.000639  0.000504
+6   ggH  Merged2Gsf_BST  125  2017  set_125_Merged2Gsf_BST    0.000436     0.153239   0.033197     0.008554      0.01825     0.008212  0.003595  0.000138
+7   VBF  Merged2Gsf_BST  125  2017  set_125_Merged2Gsf_BST     0.00055     0.154921   0.033128     0.012133     0.018434     0.012885  0.003951  0.000137
+8    WH  Merged2Gsf_BST  125  2017  set_125_Merged2Gsf_BST    0.000617     0.155316   0.032376     0.008964     0.018543     0.011316  0.002116  0.000048
+9    ZH  Merged2Gsf_BST  125  2017  set_125_Merged2Gsf_BST    0.000668     0.155426   0.032628     0.008134     0.018782     0.006345  0.001803  0.000073
+10  ttH  Merged2Gsf_BST  125  2017  set_125_Merged2Gsf_BST    0.000646      0.15485   0.034641     0.007638     0.018871     0.007102   0.00279   0.00015
+11  bbH  Merged2Gsf_BST  125  2017  set_125_Merged2Gsf_BST    0.001194      0.14937   0.033106     0.004954     0.018248     0.007467  0.000527  0.000975
+12  ggH  Merged2Gsf_BST  130  2017  set_130_Merged2Gsf_BST    0.000467     0.152839   0.033413     0.008095     0.018093     0.009857   0.00163  0.000067
+13  VBF  Merged2Gsf_BST  130  2017  set_130_Merged2Gsf_BST    0.000607     0.154932   0.033096     0.012071     0.018903     0.013546  0.002328  0.000169
+14   WH  Merged2Gsf_BST  130  2017  set_130_Merged2Gsf_BST    0.000661     0.155715   0.032847     0.008619     0.018801     0.007151   0.00162  0.000133
+15   ZH  Merged2Gsf_BST  130  2017  set_130_Merged2Gsf_BST    0.000636      0.15584   0.032995     0.007903     0.018814     0.012129  0.000848  0.000159
+16  ttH  Merged2Gsf_BST  130  2017  set_130_Merged2Gsf_BST    0.000757     0.155492   0.035261     0.007573     0.018883     0.009237  0.002192  0.000108
+17  bbH  Merged2Gsf_BST  130  2017  set_130_Merged2Gsf_BST    0.000805     0.153421   0.034643     0.006314     0.017744     0.016335     0.002  0.001005
+ --> Successfully saved rate systematics as pkl file: /home/chenghan/HDalitzEle/misc/Limit/CMSSW_11_3_4/src/HLLGFinalFits/Signal/syst/rate_syst_Merged2Gsf_BST_2017.pkl
