@@ -72,7 +72,7 @@ Looks like we need to do the following :
 Copy the cards directory from DataCard directory produced in the previous step
 ```ruby
 python3 mergeCards.py
-sh run_combine.sh
+sh runComebine.sh
 
 python3 makeLimitPlot.py
 ```
