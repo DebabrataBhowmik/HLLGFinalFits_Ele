@@ -57,7 +57,7 @@ cd HLLGFinalFits/Signal
 python3 runSignal.py -s calcShapeSyst
 python3 runSignal.py -s calcYieldSyst
 
-python3 runSignal.py -s signalFit
+python3 runSignal.py -s signalFit --doSystematics
 python3 runSignal.py -s makeModelPlot
 ```
 Go to Datacard directory (to be confirmed)
